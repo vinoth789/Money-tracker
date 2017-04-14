@@ -1,5 +1,5 @@
 name: ISEE 2017
 markdown: kramdown
-baseurl: /isee2017
+baseurl: /isee2017-codecrunch
 permalink: /blog/:year/:month/:day/:title/
 theme: jekyll-theme-dinky

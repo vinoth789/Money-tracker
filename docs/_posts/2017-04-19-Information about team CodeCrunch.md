@@ -1,6 +1,6 @@
 
 <h1 style="color: #000000; text-align:center;"><span align="center">Code crunches</span></h1>
-<p>Welcome to our Blog, where you will see information about our team, roles and responsibilities, Motivation and Process model</p> 
+<h2 style="color: #000000; text-align:center;"><span align="center">Welcome to our Blog, you will see information about our team, roles and responsibilities, Motivation and Process model</span></h2>
 <p>The name <span style="color: #2b2301;">‘Code crunches’</span> itself says how exited we are in learning new programming languages.</p> 
 <h1 style="color: #2e6c80;">Team logo</h1>
 <span align="center">

@@ -1,5 +1,6 @@
 
 <h1 style="color: #000000; text-align:center;"><span align="center">Code crunches</span></h1>
+<p>Welcome to our Blog, where you will see information about our team, roles and responsibilities, Motivation and Process model</p> 
 <p>The name <span style="color: #2b2301;">‘Code crunches’</span> itself says how exited we are in learning new programming languages.</p> 
 <h1 style="color: #2e6c80;">Team logo</h1>
 <span align="center">
@@ -31,17 +32,17 @@
 <h1 style="color: #2e6c80;">Roles and Responsibilities</h1>
 <div>
 <ul>
-<li>Anusha being a scrum master will see to that the process is being followed and will get the status and updates on a regular basis.</li>  
-<li>Jagriti being a developer, will be responsible for designing, developing and testing as well.</li>
-<li>Ram Kishore being a developer, will be responsible for designing, developing and testing as well.</li>
-<li>Vinoth being the product owner, will be responsible for  grinding the requirements in to number of sprints based on the priority which the team will then take up and start working on. </li>
+<li><p>Anusha being a scrum master will see to that the process is being followed and will get the status and updates on a regular basis.</p></li>  
+<li><p>Jagriti being a developer, will be responsible for designing, developing and testing as well.</p></li>
+<li><p>Ram Kishore being a developer, will be responsible for designing, developing and testing as well.</p></li>
+<li><p>Vinoth being the product owner, will be responsible for  grinding the requirements in to number of sprints based on the priority which the team will then take up and start working on.</p></li>
 </ul>
 </div>
 <p>Though each has some roles, as a team each of us will be involved in all the phases of product development. No doubt, work will be shared equally among the team members.</p>
 
 <h1 style="color: #2e6c80;">Team Communication</h1>
 <p>Before we start with the development, we have decided to go through tutorials to understand the basic concepts of app development and a team meeting will then be organised to have a knowledge transition and to know the team’s strength and weakness.</p>
-<p>The status about the progress of each phase will be updated in the WhatsApp group on a daily basis and each sprints will be delivered at the end of every week. Also, our team will meetup twice in a week to discuss everything about the product development and to share the knowledge acquired from time to time just to make sure that everyone should know everything about what we are doing as a whole. Also, we will make use of ZenHub extension for GIT Hub. In case of any discrepancy, each and every members of the team will have a sole right to call up for a meeting where all the issues will be discussed and addressed.</p>
+<p>The status about the progress of each phase will be updated in the WhatsApp group on a daily basis and each sprints will be delivered at the end of every week. Also, our team will meetup twice in a week to discuss everything about the product development and to share the knowledge acquired from time to time just to make sure that everyone should know everything about what we are doing as a whole. We will also make use of ZenHub extension for GIT Hub. In case of any discrepancy, each and every members of the team will have a sole right to call up for a meeting where all the issues will be discussed and addressed.</p>
 
 <h1 style="color: #2e6c80;">Approaching Method</h1>
 <p>We will be following the iterative approach to develop the Money tracker app. Below are its phases,</p>
@@ -50,3 +51,5 @@
 </span>
 <p>Any change in requirement will also follow the above sequential process. </p>
 <p>There might be a situation where any of team members will not be able to participate in some task due to an emergency. In such cases being an effective team no way we are gonna miss the deadline, the rest of the team members will compensate by equally sharing the task that lagged behind. </p>
+
+<h3 style="color: #000000; text-align:center;"><span align="center">Thanks for visiting our Blog !</span></h3>

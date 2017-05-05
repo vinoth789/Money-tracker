@@ -9,6 +9,12 @@
 <li><p>Once the user enters the security PIN, the user should be redirected to the home screen of the application.</p></li>
 <li><p>User should have an option to change currency in the home screen.</p></li>
 <li><p>User should be able to see the last few transactions in the home screen for current month by default.</p></li>
+<li><p>User should be able to switch to the previous month to see the last few transactions of previous month in the home screen.</p></li>
+<li><p>User should be able to switch to the next month to see the last few transactions of next month in the home screen.</p></li>
+<li><p>User should be able to see the income and expenses in the home screen along with last few transactions for the selected period which could be (previous month,current month and next month)</p></li>
+<li><p>User should be able to add a new transaction on click of the`+`icon in the home screen.</p></li>
+<li><p>User should be able to view the report on click of the `report`icon in the home screen. </p></li>
+<li><p> On click of the`+`icon in the home screen,the user should be redirected to a new screen where he/she should be able to add the transaction details.</p></li>
 <li><p>As a user I want to add Transaction, click on + icon and one should be navigated to Add Transaction page</p></li>
 <li><p>In Add transaction screen user should be shown with Select Category dropdown</p></li>
 <li><p>In Add transaction screen user should be shown with Select dropdate ( time and day to book transactions)</p> </li>

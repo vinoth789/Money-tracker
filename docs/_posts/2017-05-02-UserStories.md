@@ -3,7 +3,7 @@
 <h2 style="color: #000000; "><span align="center">Welcome to our second Blog, you will see information about the user stories and how we came up with the requirements</span></h2>
 <div>
 <ol>
-<li><p>Money tracker application should be password protected. User should be able to set his PIN when he opens the app for the first time.<p></p></li>
+<li><p>Money tracker application should be password protected. User should be able to set his PIN when he opens the app for the first time.</p></li>
 <li><p>User should be able to open the app only if the PIN matches with the PIN that was set by the user (Validation).</p></li>
 <li><p>Security PIN should be of 4-digit numeric (Validation).</p></li>
 <li><p>Once the user enters the security PIN, the user should be redirected to the home screen of the application.</p></li>

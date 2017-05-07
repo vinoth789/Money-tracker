@@ -1,9 +1,9 @@
 <div>
-<h1 style="color: #000000; "><span align="center">User Stories</span></h1>
+<h1 style="color: #000000; text-align:center;">Requirements and User Stories</h1>
 <h2 style="color: #000000; "><span align="center">Welcome to our second Blog, you will see information about the user stories and how we came up with the requirements</span></h2>
 </div>
 <div>
-<h1 style="color: #2e6c80;"><span align="center">Requirements</span></h1>
+<h1 style="color: #2e6c80;">Requirements</h1>
 <p>Following are the four modules,</p>
 <div>
 <ol>
@@ -53,6 +53,7 @@ Transaction details has to be displayed based on the below two filters,</p>
 </div>
 <p>Note : both filters should work in tandem.</p>
 </div>
+<h1 style="color: #2e6c80;">User stories</h1>
 <div>
 <ol>
 <li><p>Money tracker application should be password protected. User should be able to set his PIN when he opens the app for the first time.</p></li>

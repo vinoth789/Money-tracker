@@ -1,6 +1,58 @@
 <div>
 <h1 style="color: #000000; "><span align="center">User Stories</span></h1>
 <h2 style="color: #000000; "><span align="center">Welcome to our second Blog, you will see information about the user stories and how we came up with the requirements</span></h2>
+</div>
+<div>
+<h1 style="color: #2e6c80;"><span align="center">Requirements</span></h1>
+<p>Following are the four modules,</p>
+<div>
+<ol>
+<li><p>Home screen</p></li>
+<li><p>Add transaction</p></li>
+<li><p>Add category</p></li>
+<li><p>Report.</p></li>
+</ol>
+</div>
+<h1 style="color: #2e6c80;">Home screen</h1>
+<div>
+<ol>
+<li><p>App should be password protected.</p></li>
+<li><p>Total income and expenses should be displayed in the top section of the screen.</p></li>
+<li><p>Recent transactions for current, previous and next months will be displayed in descending order.</p></li>
+<li><p>There should be an option to change the currency.</p></li>
+</ol>
+</div>
+<h1 style="color: #2e6c80;">Add transaction</h1>
+<div>
+<ol>
+<li><p>How much money was spent</p></li>
+<li><p>On what was the money spent  on - Category</p></li>
+<li><p>Date of transaction</p></li>
+<li><p>A short description </p></li>
+<li><p>Spent by cash/ card or bank transfer </p></li>
+</ol>
+</div>
+<h1 style="color: #2e6c80;">Add category</h1>
+<p>Categories are further divided in to two sub categories,</p>
+<div>
+<ol>
+<li><p>Income – Amount acquired by you by any means will come under income</p></li>
+<li><p>Expense – Amount that is spent by any means</p></li>
+</ol>
+</div>
+<h1 style="color: #2e6c80;">Report</h1>
+<p>All the transaction details has to displayed in the following syntax based on the filters applied,<br/>
+dd-mm-yyyy  -  Amount, Category, First 30 characters of the description<br/>
+eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/>
+Transaction details has to be displayed based on the below two filters,</p>
+<div>
+<ol>
+<li><p>Filter by date – select start date and end date</p></li>
+<li><p>Filter by category – select the category</p></li>
+</ol>
+</div>
+<p>Note : both filters should work in tandem.</p>
+</div>
 <div>
 <ol>
 <li><p>Money tracker application should be password protected. User should be able to set his PIN when he opens the app for the first time.</p></li>
@@ -15,6 +67,7 @@
 <li><p>User should be able to add a new transaction on click of the`+`icon in the home screen.</p></li>
 <li><p>User should be able to view the report on click of the `report`icon in the home screen. </p></li>
 <li><p> On click of the`+`icon in the home screen,the user should be redirected to a new screen where he/she should be able to add the transaction details.</p></li>
+<li><p>Before landing on the Add transaction details page, the user should be able to select whether the transaction is income or expense</p></li>
 <li><p>In the transaction screen user should be able to add the following details, </p>
 <div><ul>
 <li><p>Amount that he had spent,</p></li>

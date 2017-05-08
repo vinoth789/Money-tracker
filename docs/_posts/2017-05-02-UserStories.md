@@ -13,7 +13,7 @@
 <li><p>Report.</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">Home screen<h2> &lt;<p>-Estimate (1 week)</p>
+<h2 style="color: #2e6c80;">Home screen <span style="color: #000000;"> -Estimate (1 week)</span><h2>
 <div>
 <ol>
 <li><p>App should be password protected.</p></li>

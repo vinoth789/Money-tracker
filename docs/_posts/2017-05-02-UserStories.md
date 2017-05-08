@@ -56,7 +56,7 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <h1 style="color: #2e6c80; text-align:center;">User stories</h1>
 <div>
 <ol>
-<h2 style="color: #2e6c80;">Home screen module</h2>
+<h2 style="color: #2e6c80;">Home screen module :</h2>
 <li><p>Money tracker application should be password protected. User should be able to set his PIN when he opens the app for the first time.</p></li>
 <li><p>User should be able to open the app only if the PIN matches with the PIN that was set by the user (Validation).</p></li>
 <li><p>Security PIN should be of 4-digit numeric (Validation).</p></li>
@@ -68,7 +68,7 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <li><p>User should be able to see the income and expenses in the home screen along with last few transactions for the selected period which could be (previous month,current month and next month)</p></li>
 <li><p>User should be able to add a new transaction on click of the`+`icon in the home screen.</p></li>
 <li><p>User should be able to view the report on click of the `report`icon in the home screen. </p></li>
-<h2 style="color: #2e6c80;">Add transaction module</h2>
+<h2 style="color: #2e6c80;">Add transaction module :</h2>
 <li><p> On click of the`+`icon in the home screen,the user should be redirected to a new screen where he/she should be able to add the transaction details.</p></li>
 <li><p>Before landing on the Add transaction details page, the user should be able to select whether the transaction is income or expense</p></li>
 <li><p>In the transaction screen user should be able to add the following details, </p>
@@ -87,7 +87,7 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <img style="align:center;" src="/isee2017-codecrunch/images/IncomeExpense.PNG" alt="Alt text"/>
 <li><p>On click of ‘New expense category’ user should be able to add a new subcategory if it’s not mentioned by default.</p></li>
 <li><p>Onclick of the date icon calendar should be opened for the user to select the date.</p></li>
-<h2 style="color: #2e6c80;">View report module</h2>
+<h2 style="color: #2e6c80;">View report module :</h2>
 <li><p>Onclick of the ‘report’ icon in the home screen, the user should be redirected to a new screen where he should be able view the transaction details.</p></li>
 <li><p>User should be able to use the date filter to view the transaction details for the selected period (start date – end date).</p></li>
 <li><p>User should be able to use the category filter to view the transaction details for the selected category.</p></li>
@@ -96,15 +96,15 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 </ol>
 </div>
 <p>Based on the above user stories we came up with the use case diagrams</p>
-<h2>Use case diagram for Login and Home screen :</h2>
+<h2 style="color: #2e6c80;">Use case diagram for Login and Home screen :</h2>
 <span align="center">
 ![usecasediagram image]({{site.baseurl}}/images/HomeScreen.PNG "Login and Home screen")
 </span>
-<h2>Use case diagram for adding a new transaction :</h2>
+<h2 style="color: #2e6c80;">Use case diagram for adding a new transaction :</h2>
 <span align="center">
 ![usecasediagram image]({{site.baseurl}}/images/AddCategory.PNG "Add new transaction")
 </span>
-<h2>Use case diagram to view reports :</h2>
+<h2 style="color: #2e6c80;">Use case diagram to view reports :</h2>
 <span align="center">
 ![usecaseDiagram3 image]({{site.baseurl}}/images/ViewReport.PNG "View report")
 </span>

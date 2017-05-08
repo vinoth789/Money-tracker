@@ -83,10 +83,11 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <li><p>Amount field should only accept digits and periods. (Validation).</p></li>
 <li><p>Onclick of the category field, user should be able to redirected to a new screen to select the category.</p> </li>
 <li><p>User should be able to see two main categories (Income and Expense) in the category screen.</p></li>
-<li><p>Under the Income and Expense category, user should be able to see the following sub categories,
+<li><p>Under the Income and Expense category, user should be able to see the following sub categories,</p>
+<img src="/isee2017-codecrunch/images/IncomeExpense.PNG" alt="Alt text"/>
 <span align="center">
 ![IncomeExpense image]({{site.baseurl}}/images/IncomeExpense.PNG "Income and Expense table")
-</span></p>
+</span>
 
 <div><ul>
 <li><p>Monthly income</p></li>

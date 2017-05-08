@@ -13,7 +13,7 @@
 <li><p>Report.</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">Home screen</h2><p>Estimate ()</p>
+<h2 style="color: #2e6c80;">Home screen<p>-Estimate (1 week)</p></h2>
 <div>
 <ol>
 <li><p>App should be password protected.</p></li>
@@ -139,11 +139,11 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <p>Based on the above user stories we came up with the use case diagrams</p>
 <p>Use case diagram for Login and Home screen</p>
 <span align="center">
-![usecaseDiagram1 image]({{site.baseurl}}/images/HomeScreen.PNG "Login and Home screen")
+![usecasediagram image]({{site.baseurl}}/images/HomeScreen.PNG "Login and Home screen")
 </span>
 <p>Use case diagram for adding a new transaction</p>
 <span align="center">
-![usecaseDiagram2 image]({{site.baseurl}}/images/AddCategory.PNG "Add new transaction")
+![usecasediagram image]({{site.baseurl}}/images/AddCategory.PNG "Add new transaction")
 </span>
 <p>Use case diagram to view reports</p>
 <span align="center">

@@ -151,7 +151,7 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <span align="center">
 ![usecaseDiagram3 image]({{site.baseurl}}/images/ViewReport.PNG "View report")
 </span>
-<h2 style="color: #2e6c80;">Team work on Requirement Analysis </h2>
+<h1 style="color: #2e6c80;">Team work on Requirement Analysis </h1>
 <div>
 <p>The idea behind developing this app is to allow users to track their income and expenses on daily basis. Once we decided to take up Money tracking app, First thing we tried is to understand what the money tracking app is about. So we came up with an idea of exploring an existing app. Each one of us decided to explore and analyse a different app which took about 2 days and we organised the meeting on the 3rd day. Having gained knowledge on money tracking, each one us had our chances to put forth the ideas on the table. The ideas were evaluated carefully and the best ones were picked up. With all the best ideas we framed the requirements. We took the guidance and suggestions of our Professor in the tutorials. That is how the requirements were finalised.</p>
 </div>
@@ -163,7 +163,7 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <div>
 <p>Since each of us had different views and a unique style of expressing our ideas at some point for some requirements it created an element of doubt. That is when we started digging in to the requirements a little deeper. For instance, Money tracker app is password protected, we had an idea to validate the user credentials using user name and password. Then, after team discussion we came up with the idea of 4 digit PIN which is way simpler than user credentials. Also, we were not clear about the idea of ‘Currency change’ each one of us had a different view. We initially thought that we need to work on the conversions. Later, we got a clear picture on currency change requirement after discussing with our professor. And while adding a new transaction we weren’t sure as in where the user has to specify whether the transaction is an income or expense. Initially we specified it in the ‘Add transaction’ screen which was little tedious. Our professor made it simpler by changing our requirement in such a way the user selects income/expense before he lands in to the ‘Add transaction’ screen which made a lot of sense.  </p>
 </div>
-<h2 style="color: #2e6c80;">Future work</h2>
+<h1 style="color: #2e6c80;">Future work</h1>
 <div>
 <p>Having analysed the requirements, the next thing we are going to concentrate is on design and implementation part. As an initiative, we have already installed Android studio. Also, we tried implementing a sample ‘Hello world’ program just to understand the framework and how the request and response is handled.</p>
 </div>

@@ -13,7 +13,7 @@
 <li><p>Report.</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">Home screen<p>-Estimate (1 week)</p></h2>
+<h2 style="color: #2e6c80;">Home screen<h2> &lt;div&gt;<p>-Estimate (1 week)</p>
 <div>
 <ol>
 <li><p>App should be password protected.</p></li>
@@ -136,15 +136,15 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 </ol>
 </div>
 <p>Based on the above user stories we came up with the use case diagrams</p>
-<p>Use case diagram for Login and Home screen</p>
+<h2>Use case diagram for Login and Home screen</h2>
 <span align="center">
 ![usecasediagram image]({{site.baseurl}}/images/HomeScreen.PNG "Login and Home screen")
 </span>
-<p>Use case diagram for adding a new transaction</p>
+<h2>Use case diagram for adding a new transaction</h2>
 <span align="center">
 ![usecasediagram image]({{site.baseurl}}/images/AddCategory.PNG "Add new transaction")
 </span>
-<p>Use case diagram to view reports</p>
+<h2>Use case diagram to view reports</h2>
 <span align="center">
 ![usecaseDiagram3 image]({{site.baseurl}}/images/ViewReport.PNG "View report")
 </span>
@@ -158,5 +158,8 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 
 <div>
 <p>Since each of us had different views and a unique style of expressing our ideas at some point for some requirements it created an element of doubt. That is when we started digging in to the requirements a little deeper. For instance, Money tracker app is password protected, we had an idea to validate the user credentials using user name and password. Then, after team discussion we came up with the idea of 4 digit PIN which is way simpler than user credentials. Also, we were not clear about the idea of ‘Currency change’ each one of us had a different view. We initially thought that we need to work on the conversions. Later, we got a clear picture on currency change requirement after discussing with our professor. And while adding a new transaction we weren’t sure as in where the user has to specify whether the transaction is an income or expense. Initially we specified it in the ‘Add transaction’ screen which was little tedious. Our professor made it simpler by changing our requirement in such a way the user selects income/expense before he lands in to the ‘Add transaction’ screen which made a lot of sense.  </p>
+</div>
+<div>
+<p>Having analysed the requirements, the next thing we are going to concentrate is on design and implementation part. As an initiative, we have already installed Android studio. Also, we tried implementing a sample ‘Hello world’ program just to understand the framework and how the request and response is handled.</p>
 </div>
 

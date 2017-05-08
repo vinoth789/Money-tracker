@@ -14,7 +14,7 @@
 </ol>
 </div>
 </div>
-<h2 style="color: #2e6c80;">Home screen <span style="color: #000000;"> -Estimate (1 week)</span><h2>
+<h2 style="color: #2e6c80;">Home screen <span style="color: #000000;"> -Estimate (1 week)</span></h2>
 <div>
 <ol>
 <li><p>App should be password protected.</p></li>
@@ -23,7 +23,7 @@
 <li><p>There should be an option to change the currency.</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">Add transaction</h2>
+<h2 style="color: #2e6c80;">Add transaction <span style="color: #000000;"> -Estimate (1 week)</span></h2>
 <div>
 <ol>
 <li><p>How much money was spent</p></li>
@@ -33,7 +33,7 @@
 <li><p>Spent by cash/ card or bank transfer </p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">Add category</h2>
+<h2 style="color: #2e6c80;">Add category <span style="color: #000000;"> -Estimate (1 week)</span></h2>
 <p>Categories are further divided in to two sub categories,</p>
 <div>
 <ol>
@@ -41,7 +41,7 @@
 <li><p>Expense – Amount that is spent by any means</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">Report</h2>
+<h2 style="color: #2e6c80;">Report <span style="color: #000000;"> -Estimate (1 week)</span></h2>
 <p>All the transaction details has to displayed in the following syntax based on the filters applied,<br/>
 dd-mm-yyyy  -  Amount, Category, First 30 characters of the description<br/>
 eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>

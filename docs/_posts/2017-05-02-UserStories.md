@@ -1,6 +1,6 @@
 <div>
 <h1 style="color: #000000; text-align:center;">Requirements and User Stories</h1>
-<h2 style="color: #000000; "><span align="center">Welcome to our second Blog, you will see information about the user stories and how we came up with the requirements</span></h2>
+<h2 style="color: #000000; text-align:center;">Welcome to our second Blog, you will see information about the user stories and how we came up with the requirements</h2>
 </div>
 <div>
 <h1 style="color: #2e6c80;">Requirements</h1>
@@ -13,7 +13,7 @@
 <li><p>Report.</p></li>
 </ol>
 </div>
-<h1 style="color: #2e6c80;">Home screen</h1>
+<h2 style="color: #2e6c80;">Home screen</h2>
 <div>
 <ol>
 <li><p>App should be password protected.</p></li>
@@ -22,7 +22,7 @@
 <li><p>There should be an option to change the currency.</p></li>
 </ol>
 </div>
-<h1 style="color: #2e6c80;">Add transaction</h1>
+<h2 style="color: #2e6c80;">Add transaction</h2>
 <div>
 <ol>
 <li><p>How much money was spent</p></li>
@@ -32,7 +32,7 @@
 <li><p>Spent by cash/ card or bank transfer </p></li>
 </ol>
 </div>
-<h1 style="color: #2e6c80;">Add category</h1>
+<h2 style="color: #2e6c80;">Add category</h2>
 <p>Categories are further divided in to two sub categories,</p>
 <div>
 <ol>
@@ -40,11 +40,11 @@
 <li><p>Expense – Amount that is spent by any means</p></li>
 </ol>
 </div>
-<h1 style="color: #2e6c80;">Report</h1>
+<h2 style="color: #2e6c80;">Report</h2>
 <p>All the transaction details has to displayed in the following syntax based on the filters applied,<br/>
 dd-mm-yyyy  -  Amount, Category, First 30 characters of the description<br/>
-eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/>
-Transaction details has to be displayed based on the below two filters,</p>
+eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
+<p>Transaction details has to be displayed based on the below two filters,</p>
 <div>
 <ol>
 <li><p>Filter by date – select start date and end date</p></li>
@@ -135,3 +135,15 @@ Transaction details has to be displayed based on the below two filters,</p>
 <li><p>User should be able to view his income vs expense in a bar graph based on the filters applied in the top section of the report screen.</p></li>
 </ol>
 </div>
+<div>
+<p>The idea behind developing this app is to allow users to track their income and expenses on daily basis. Once we decided to take up Money tracking app, First thing we tried is to understand what the money tracking app is about. So we came up with an idea of exploring an existing app. Each one of us decided to explore and analyse a different app which took about 2 days and we organised the meeting on the 3rd day. Having gained knowledge on money tracking, each one us had our chances to put forth the ideas on the table. The ideas were evaluated carefully and the best ones were picked up. With all the best ideas we framed the requirements. We took the guidance and suggestions of our Professor in the tutorials. That is how the requirements were finalised.</p>
+</div>
+
+<div>
+<p>With the requirements in hand, we had to think from the user perspective to come up with the user stories. All these requirements were fine tuned to frame the user stories. We split each requirement in to number of smaller user stories as possible. We made sure that each user story is unique and no duplicates exist. </p>
+</div>
+
+<div>
+<p>Since each of us had different views and a unique style of expressing our ideas at some point for some requirements it created an element of doubt. That is when we started digging in to the requirements a little deeper. For instance, Money tracker app is password protected, we had an idea to validate the user credentials using user name and password. Then, after team discussion we came up with the idea of 4 digit PIN which is way simpler than user credentials. Also, we were not clear about the idea of ‘Currency change’ each one of us had a different view. We initially thought that we need to work on the conversions. Later, we got a clear picture on currency change requirement after discussing with our professor. And while adding a new transaction we weren’t sure as in where the user has to specify whether the transaction is an income or expense. Initially we specified it in the ‘Add transaction’ screen which was little tedious. Our professor made it simpler by changing our requirement in such a way the user selects income/expense before he lands in to the ‘Add transaction’ screen which made a lot of sense.  </p>
+</div>
+

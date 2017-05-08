@@ -84,9 +84,9 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <li><p>Onclick of the category field, user should be able to redirected to a new screen to select the category.</p> </li>
 <li><p>User should be able to see two main categories (Income and Expense) in the category screen.</p></li>
 <li><p>Under the Income and Expense category, user should be able to see the following sub categories,</p>
-<span align="center">
+<div><span align="center">
 ![IncomeExpense image]({{site.baseurl}}/images/IncomeExpense.PNG "Income and Expense table")
-</span>
+</span></div>
 <div><ul>
 <li><p>Monthly income</p></li>
 <li><p>Interest</p></li>

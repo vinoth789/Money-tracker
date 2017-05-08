@@ -83,8 +83,8 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <li><p>Amount field should only accept digits and periods. (Validation).</p></li>
 <li><p>Onclick of the category field, user should be able to redirected to a new screen to select the category.</p> </li>
 <li><p>User should be able to see two main categories (Income and Expense) in the category screen.</p></li>
-<li><p>Under the Income and Expense category, user should be able to see the following sub categories,</p><li>
-<img style="text-align:center;" src="/isee2017-codecrunch/images/IncomeExpense.PNG" alt="Alt text"/>
+<li><p>Under the Income and Expense category, user should be able to see the following sub categories,</p></li>
+<img style="align:center;" src="/isee2017-codecrunch/images/IncomeExpense.PNG" alt="Alt text"/>
 <li><p>On click of ‘New expense category’ user should be able to add a new subcategory if it’s not mentioned by default.</p></li>
 <li><p>Onclick of the date icon calendar should be opened for the user to select the date.</p></li>
 <h2 style="color: #2e6c80;">View report module</h2>

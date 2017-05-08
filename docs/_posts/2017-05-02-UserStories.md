@@ -135,7 +135,6 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <li><p>User should be able to view his income vs expense in a bar graph based on the filters applied in the top section of the report screen.</p></li>
 </ol>
 </div>
-<div>
 <p>Based on the above user stories we came up with the use case diagrams</p>
 <p>Use case diagram for Login and Home screen</p>
 <span align="center">
@@ -149,7 +148,6 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <span align="center">
 ![usecaseDiagram3 image]({{site.baseurl}}/images/ViewReport.PNG "View report")
 </span>
-</div>
 <div>
 <p>The idea behind developing this app is to allow users to track their income and expenses on daily basis. Once we decided to take up Money tracking app, First thing we tried is to understand what the money tracking app is about. So we came up with an idea of exploring an existing app. Each one of us decided to explore and analyse a different app which took about 2 days and we organised the meeting on the 3rd day. Having gained knowledge on money tracking, each one us had our chances to put forth the ideas on the table. The ideas were evaluated carefully and the best ones were picked up. With all the best ideas we framed the requirements. We took the guidance and suggestions of our Professor in the tutorials. That is how the requirements were finalised.</p>
 </div>

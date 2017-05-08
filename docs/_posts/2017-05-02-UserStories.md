@@ -83,56 +83,8 @@ eg (10-05-1995 – 500 euros, Clothing, Birthday shopping)<br/></p>
 <li><p>Amount field should only accept digits and periods. (Validation).</p></li>
 <li><p>Onclick of the category field, user should be able to redirected to a new screen to select the category.</p> </li>
 <li><p>User should be able to see two main categories (Income and Expense) in the category screen.</p></li>
-<li><p>Under the Income and Expense category, user should be able to see the following sub categories,</p>
-<img src="/isee2017-codecrunch/images/IncomeExpense.PNG" alt="Alt text"/>
-<span align="center">
-![IncomeExpense image]({{site.baseurl}}/images/IncomeExpense.PNG "Income and Expense table")
-</span>
-
-<div><ul>
-<li><p>Monthly income</p></li>
-<li><p>Interest</p></li>
-<li><p>Gifts</p></li>
-<li><p>Other income, etc.</p></li>
-</ul></div>
-</li>
-<li><p>Under the Expense category, user should be able to see the following sub categories,</p>
-<div><ul>
-<li><p>Food and Beverages</p>
-<div><ul>
-<li><p>Cafe</p></li>
-<li><p>Bar</p></li>
-<li><p>Restaurants</p></li>
-</ul></div>
-</li>
-<li><p>Bills</p>
-<div><ul>
-<li><p>Rental</p></li>
-<li><p>Phone, Electric, Water</p></li>
-</ul></div>
-</li>
-<li><p>Travelling</p></li>
-<li><p>Debts</p></li>
-<li><p>Shopping</p>
-<div><ul>
-<li><p>Grocery</p></li>
-<li><p>Clothing</p></li>
-<li><p>Footwear</p></li>
-<li><p>Electronics</p></li>
-</ul></div>
-</li>
-<li><p>Loan</p></li>
-<li><p>Education</p></li>
-<li><p>Gifts</p></li>
-<li><p>Health</p>
-<div><ul>
-<li><p>Insurance</p></li>
-<li><p>Doctor</p></li>
-<li><p>Sports</p></li>
-</ul></div>
-</li>
-</ul></div>
-</li>
+<li><p>Under the Income and Expense category, user should be able to see the following sub categories,</p><li>
+<img style="text-align:center;" src="/isee2017-codecrunch/images/IncomeExpense.PNG" alt="Alt text"/>
 <li><p>On click of ‘New expense category’ user should be able to add a new subcategory if it’s not mentioned by default.</p></li>
 <li><p>Onclick of the date icon calendar should be opened for the user to select the date.</p></li>
 <h2 style="color: #2e6c80;">View report module</h2>

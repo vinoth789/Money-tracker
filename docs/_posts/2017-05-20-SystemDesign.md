@@ -118,8 +118,23 @@
   </ul>
  </li>
  </div>
+ 
+ <div>
+ <li>
+    <p>Enumerations :</p>
+    <ul>
+        <li><p>Category enum contains value income and expense</p></li> 
+        <li><p>Currency enum contains various currency values</p></li>
+        <li><p>Currency and Category values are constants and cannot be added or modified during program execution, hence are stored as enums</p></li>
+    </ul>
+ </li>
+ </div>
+ 
+ 
 </ol>
 </div>
+
+
 
 <div>
     <h2 style="color: #2e6c80;">Design Pattern </h2>

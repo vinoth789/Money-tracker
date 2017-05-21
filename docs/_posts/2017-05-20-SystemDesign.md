@@ -71,8 +71,15 @@
 <div>
 <li><p><b>Item</b></p>
      <ul>
-         <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist</p></li>
-         <li><p>Contains one method :</p>
+          <li><p>Attributes: </p>
+               <ul>
+                  <li><p>amount - integer</p></li>
+                  <li><p>Note - String</p></li>
+                  <li><p>category - enum</p></li>
+                  <li><p>subCategory - Arraylist</p></li>
+              </ul>
+         </li>
+         <li><p>Method :</p>
               <ul>
                   <li><p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined </p></li>
               </ul>
@@ -86,9 +93,16 @@
 
 <div>
 <li><p><b>Transaction</b></p>
-     <ul>
-         <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer</p></li>
-         <li><p>Contains two methods :</p>
+     <ul>        
+         <li><p>Attributes: </p>
+               <ul>
+                  <li><p>totalBalance - integer</p></li>
+                  <li><p>totalIncome - integer</p></li>
+                  <li><p>totalExpense - integer</p></li>
+              </ul>
+         </li>
+         
+         <li><p>Methods :</p>
               <ul>
                   <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p></li>
                   <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p></li>
@@ -105,8 +119,15 @@
 <li>
      <p> <b>Report</b></p>
      <ul>
-     <li><p>Contains attribute startDate and endDate of type Date and Category of type enum</p></li>
-     <li><p>Contains three methods :</p>
+        <li><p>Attributes: </p>
+               <ul>
+                  <li><p>startDate - Date</p></li>
+                  <li><p>endDate - Date</p></li>
+                  <li><p>Category - enum</p></li>
+              </ul>
+         </li>
+     
+     <li><p>Methods :</p>
           <ul>
                <li><p>generateReport(startDate Date, endDate Date) - Generates report based on the given range of date values</p></li>
                 <li><p>generateReport(Category category) - Generates report based on the selected category value</p></li>

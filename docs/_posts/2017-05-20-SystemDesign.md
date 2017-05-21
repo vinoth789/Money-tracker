@@ -5,12 +5,12 @@
 
 <div>
 <h2 style="color: #2e6c80;">Sequence diagram </h2>
-<h6 style="color: #2e6c80;">PIN verification use case</h6>
+<h4 style="color: #2e6c80;">PIN verification use case</h4>
 <span align="center">
 ![sequencedg image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
 
-<h6 style="color: #2e6c80;">View Report use case</h6>
+<h4 style="color: #2e6c80;">View Report use case</h4>
 <span align="center">
 ![sequencedg image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Add new transaction")
 </span>

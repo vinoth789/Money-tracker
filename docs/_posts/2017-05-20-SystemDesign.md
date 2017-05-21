@@ -121,7 +121,7 @@
  
  <div>
  <li>
-    <p>Enumerations :</p>
+ <p><b>Enumerations :</b></p>
     <ul>
         <li><p>Category enum contains value income and expense</p></li> 
         <li><p>Currency enum contains various currency values</p></li>

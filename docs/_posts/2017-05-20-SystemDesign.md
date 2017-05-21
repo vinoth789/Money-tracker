@@ -5,7 +5,7 @@
 
 <div>
 <h2 style="color: #2e6c80; text-align:center;">Sequence diagram </h2>
-<h3 style="color: #2e6c80;">PIN verification use case</h3>
+<h2 style="color: #2e6c80;">PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>

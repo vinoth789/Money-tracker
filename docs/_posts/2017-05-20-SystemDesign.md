@@ -59,40 +59,44 @@
     </li>
 
 
-    <li>
-        <p><b>Item class</b></p>
-        <ul>
-            <li>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist
-            </li>
-            <li>Contains method :
-                <ul>
-                    <li>
-                         <p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined 
-                         </p>
-                    </li>
-                </ul>
-              </li>
-          </ul>
-      </li>
-       <li>
-            <p>Every Item is associated with one currencyType and one item per transaction</p>
-       </li>
+<li><p><b>Item class</b></p>
+     <ul>
+         <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist<p></li>
+         <li>Contains one method :
+              <ul>
+                  <li><p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined </p></li>
+              </ul>
+          </li>
+          <li>
+        <p>Every Item is associated with one currencyType and one item per transaction</p>
+          </li> 
+       </ul> 
+    </li>
 
-        <li>
-            <p> <b>Transaction class</b></p>
-            <ul>
-                  <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer</p></li>      
-                  <li> Contains two methods :
-                       <ul>
-                            <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p>
-                            </li>
-                            <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p>
-                            </li>
-                      </ul>
-                  </li>
-                  </ul>
-                  <li><p>Every transaction consits of atleast one Item. Transaction inherits class Item, hence has acess to all attributes and methods defined in class Items and one or many transaction will involve in generating the report.Basically handles all actions involved in adding and maintaining of transactions under Income or Expense category.</p>
-                  </li>
+
+
+
+
+
+
+
+
+
+<li><p><b>Transaction class</b></p>
+     <ul>
+         <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer<p></li>
+         <li>Contains two methods :
+              <ul>
+                  <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p></li>
+                  <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p></li>
+              </ul>
+          </li>
+          <li>
+        <p>Every transaction consits of atleast one Item. Transaction inherits class Item, hence has acess to all attributes and methods defined in class Items and one or many transaction will involve in generating the report.Basically handles all actions involved in adding and maintaining of transactions under Income or Expense category</p>
+          </li> 
+       </ul> 
+    </li>
+
 
 <li>
      <p> <b>Report class</b></p>

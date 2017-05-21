@@ -120,7 +120,7 @@
     <ul>
     <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
     <li><p>Allows for easier code maintenance and faster development process</p></li>
-    <li><p>Provides multiple view as it is necessary in Report view</p></li>
+    <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>
     <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
     </ul>
     </div>

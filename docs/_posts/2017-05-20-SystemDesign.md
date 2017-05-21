@@ -24,6 +24,7 @@
 
 <h3 style="color: #2e6c80;">Detail description of classes and there associations</h3>
 <ol>
+
   <li><p><b>User class</b></p>
      <ul>
          <li><p>Contains attribute PIN of type integer. Accepts PIN of length 4<p></li>
@@ -42,16 +43,21 @@
     </li>
 
 
-    <li>
-          <p><b>CurrencyType class</b></p>
-          <ul>
-              <li>Contains attribute currencyType of type String.</li>
-              <li>Contains getters and setters to get and set value of currency type across the application as it is made private.</li>
-         </ul>
+<li><p><b>CurrencyType class</b></p>
+     <ul>
+         <li><p>Contains attribute currencyType of type String<p></li>
+         <li>Contains getters and setters to get and set value of currency type across the application as it is made private :
+              <ul>
+                  <li><p>getCurrenyType() - returns currency type value set for the application</p></li>
+                  <li><p>setCurrencyType(String currencyType) - sets currency type value</p></li>
+              </ul>
+          </li>
+          <li>
+        <p>Currency is associated with every item and each user is allowed to set currency type very first time he logs into the                  application</p>
+          </li> 
+       </ul> 
     </li>
-    <li>
-        <p>Currency is associated with every item and each user is allowed to set currency type very first time he logs into the                  application</p> 
-    </li>
+
 
     <li>
         <p><b>Item class</b></p>

@@ -51,9 +51,7 @@
                   <li><p>setCurrencyType(String currencyType) - sets currency type value</p></li>
               </ul>
           </li>
-          <li>
-        <p>Currency is associated with every item and each user is allowed to set currency type very first time he logs into the                  application</p>
-          </li> 
+          <li><p>Currency is associated with every item and each user is allowed to set currency type very first time he logs into the application</p> </li> 
        </ul> 
     </li>
 

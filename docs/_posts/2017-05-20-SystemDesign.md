@@ -26,6 +26,7 @@
 
 <div>
 <ol>
+<div>
   <li>
       <p><b>UserDetails</b></p>
        <ul>
@@ -40,8 +41,9 @@
           <li><p>Every user after login will be allowed to select one curreny type. Hence user is associated with minimum of one currency type and maxximum of any number of currency types available </p></li> 
        </ul> 
     </li>
+  </div>
 
-
+<div>
   <li>
       <p><b>CurrencyType</b></p>
       <ul>
@@ -55,8 +57,9 @@
           <li><p>Currency is associated with every item and each user is allowed to set currency type very first time he logs into the application</p> </li> 
        </ul> 
     </li>
+</div>
 
-
+<div>
 <li><p><b>Item</b></p>
      <ul>
          <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist</p></li>
@@ -70,7 +73,9 @@
           </li> 
        </ul> 
     </li>
+</div>
 
+<div>
 <li><p><b>Transaction</b></p>
      <ul>
          <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer</p></li>
@@ -85,8 +90,9 @@
           </li> 
        </ul> 
     </li>
+</div>
 
-
+<div>
 <li>
      <p> <b>Report</b></p>
      <ul>
@@ -102,6 +108,7 @@
       </li>
   </ul>
  </li>
+ </div>
 </ol>
 </div>
 

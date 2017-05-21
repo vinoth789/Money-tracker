@@ -5,19 +5,19 @@
 
 <div>
 <h2 style="color: #2e6c80;">Sequence diagram </h2>
-<h3 style="color: #2e6c80;">PIN verification use case</h3>
+<h6 style="color: #2e6c80;">PIN verification use case</h6>
 <span align="center">
 ![usecasediagram image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
 
-<h3 style="color: #2e6c80;">View Report use case</h3>
+<h6 style="color: #2e6c80;">View Report use case</h6>
 <span align="center">
 ![usecasediagram image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Add new transaction")
 </span>
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">Class Diagram for Money Tracker Application :</h2>
+<h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
 ![usecaseDiagram3 image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
 </span>

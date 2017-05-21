@@ -4,7 +4,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80; text-align:center;">Sequence diagram </h2>
+<h1 style="color: #2e6c80;">Sequence diagram </h1>
 <h2 style="color: #2e6c80;">PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
@@ -18,17 +18,17 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80; text-align:center;">Class Diagram </h2>
+<h1 style="color: #2e6c80;">Class Diagram </h1>
 <span align="center">
 ![classdg image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
 </span>
-<h2 style="color: #2e6c80; text-align:center;">Detail description of classes and there associations</h2>
+<h2 style="color: #2e6c80; ">Detail description of classes and there associations</h2>
 </div>
 
 <div>
 <ol>
   <li>
-      <p><b>User class</b></p>
+      <p><b>UserDetails</b></p>
        <ul>
          <li><p>Contains attribute PIN of type integer. Accepts PIN of length 4</p></li>
          <li><p>Contains three methods :</p>
@@ -44,7 +44,7 @@
 
 
   <li>
-      <p><b>CurrencyType class</b></p>
+      <p><b>CurrencyType</b></p>
       <ul>
          <li><p>Contains attribute currencyType of type String</p></li>
          <li><p>Contains getters and setters to get and set value of currency type across the application as it is made private :</p>
@@ -58,7 +58,7 @@
     </li>
 
 
-<li><p><b>Item class</b></p>
+<li><p><b>Item</b></p>
      <ul>
          <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist</p></li>
          <li><p>Contains one method :</p>
@@ -72,7 +72,7 @@
        </ul> 
     </li>
 
-<li><p><b>Transaction class</b></p>
+<li><p><b>Transaction</b></p>
      <ul>
          <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer</p></li>
          <li><p>Contains two methods :</p>
@@ -89,7 +89,7 @@
 
 
 <li>
-     <p> <b>Report class</b></p>
+     <p> <b>Report</b></p>
      <ul>
      <li><p>Contains attribute startDate and endDate of type Date and Category of type enum</p></li>
      <li><p>Contains three methods :</p>
@@ -104,6 +104,27 @@
   </ul>
  </li>
 </ol>
+</div>
+
+<div>
+    <h1 style="color: #2e6c80;">Design Pattern </h1>
+    <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
+    <p>Our Money Tracker application will built incorporating <b>Model-View-Controller pattern</b></p>
+    <div>
+        <h2 style="color: #2e6c80;">Below scenario shows how MVC pattern is applied for Money Tracker app </h2>
+        <span align="center">
+        ![classdg image]({{site.baseurl}}/images/MVCPattern.PNG "MVC Pattern")
+         </span>
+    </div>
+    <div>
+    <h2 style="color: #2e6c80;">Reasons for why we are incoprporating this design pattern in our application </h2>
+    <ul>
+    <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
+    <li><p>Allows for easier code maintenance and faster development process</p></li>
+    <li><p>Provides multiple view as it is necessary in Report view</p></li>
+    <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
+    </ul>
+    </div>
 </div>
 
 <div>

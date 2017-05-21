@@ -1,5 +1,4 @@
 <div>
-<h1 style="color: #000000; text-align:center;">System Design</h1>
 <h2 style="color: #000000; text-align:center;">Welcome to our Third Blog, you will see information about the Interaction and Class diagrams, Design patterns and statergies used in Development process</h2>
 </div>
 
@@ -117,7 +116,7 @@
          </span>
     </div>
     <div>
-    <h2 style="color: #2e6c80;">Reasons for why we are incoprporating this design pattern in our application </h2>
+    <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application </h2>
     <ul>
     <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
     <li><p>Allows for easier code maintenance and faster development process</p></li>
@@ -128,7 +127,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80; text-align:center;">Development Stratergies </h2>
+<h2 style="color: #2e6c80;">Development Stratergies </h2>
 <ul>
     <li><p>All user stories are broken down into several Epics and logged in Backlog</p></li>
     <li><p>Weekly SPRINT will be followed</p></li>

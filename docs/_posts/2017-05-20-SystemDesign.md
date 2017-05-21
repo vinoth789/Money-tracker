@@ -13,7 +13,7 @@
 <div>
 <h2 style="color: #2e6c80;">View Report use case</h2>
 <span align="center">
-![sequencedg2 image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Sequence Diagram for report")
+![usecasediagram image]({{site.baseurl}}/images/AddCategory.PNG "Add new transaction")
 </span>
 </div>
 

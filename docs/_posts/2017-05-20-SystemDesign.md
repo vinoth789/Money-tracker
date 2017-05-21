@@ -30,8 +30,12 @@
   <li>
       <p><b>UserDetails</b></p>
        <ul>
-         <li><p>Contains attribute PIN of type integer. Accepts PIN of length 4</p></li>
-         <li><p>Contains three methods :</p>
+         <li><p>Attributes: </p>
+               <ul>
+                  <li><p>PIN - Integer(Accepts PIN of length 4)</p></li>
+              </ul>
+         </li>
+         <li><p>Methods :</p>
               <ul>
                   <li><p>verifyPIN(int PIN) - verifies if entered pin is of lenght 4 and user authentication</p></li>
                   <li><p>setPIN(int PIN) - sets passed pin when user has logged in for the first time</p></li>
@@ -47,11 +51,16 @@
   <li>
       <p><b>CurrencyType</b></p>
       <ul>
-         <li><p>Contains attribute currencyType of type String</p></li>
-         <li><p>Contains getters and setters to get and set value of currency type across the application as it is made private :</p>
+           <li><p>Attributes: </p>
+               <ul>
+                  <li><p>currencyType - String</p></li>
+              </ul>
+         </li>
+         <li><p>Methods:</p>
               <ul>
                   <li><p>getCurrenyType() - returns currency type value set for the application</p></li>
                   <li><p>setCurrencyType(String currencyType) - sets currency type value</p></li>
+                  <li><p>Contains getters and setters to get and set value of currency type across the application as it is made private :</p></li>
               </ul>
           </li>
           <li><p>Currency is associated with every item and each user is allowed to set currency type very first time he logs into the application</p> </li> 

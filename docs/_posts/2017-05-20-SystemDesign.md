@@ -4,7 +4,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">Sequence diagram </h2>
+<h2 style="color: #2e6c80; text-align:center;">Sequence diagram </h2>
 <h3 style="color: #2e6c80;">PIN verification use case</h3>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
@@ -18,11 +18,11 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">Class Diagram </h2>
+<h2 style="color: #2e6c80; text-align:center;">Class Diagram </h2>
 <span align="center">
 ![classdg image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
 </span>
-<h2 style="color: #2e6c80;">Detail description of classes and there associations</h2>
+<h2 style="color: #2e6c80; text-align:center;">Detail description of classes and there associations</h2>
 </div>
 
 <div>
@@ -107,7 +107,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">Development Stratergies </h2>
+<h2 style="color: #2e6c80; text-align:center;">Development Stratergies </h2>
 <ul>
     <li><p>All user stories are broken down into several Epics and logged in Backlog</p></li>
     <li><p>Weekly SPRINT will be followed</p></li>

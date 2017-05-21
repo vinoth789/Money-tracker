@@ -108,7 +108,7 @@
 <div>
     <h1 style="color: #2e6c80;">Design Pattern </h1>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
-    <p>Our Money Tracker application will built incorporating <b>Model-View-Controller pattern</b></p>
+    <p>Our Money Tracker application will be built incorporating <b>Model-View-Controller pattern</b></p>
     <div>
         <h2 style="color: #2e6c80;">Below scenario shows how MVC pattern is applied for Money Tracker app </h2>
         <span align="center">

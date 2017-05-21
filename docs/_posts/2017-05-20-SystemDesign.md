@@ -3,7 +3,7 @@
 </div>
 
 <div>
-<h1 style="color: #2e6c80;">Sequence diagram </h1>
+<h2 style="color: #2e6c80;">Sequence diagram </h2>
 <h2 style="color: #2e6c80;">PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
@@ -17,7 +17,7 @@
 </div>
 
 <div>
-<h1 style="color: #2e6c80;">Class Diagram </h1>
+<h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
 ![classdg image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
 </span>
@@ -106,7 +106,7 @@
 </div>
 
 <div>
-    <h1 style="color: #2e6c80;">Design Pattern </h1>
+    <h2 style="color: #2e6c80;">Design Pattern </h2>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built incorporating <b>Model-View-Controller pattern</b></p>
     <div>

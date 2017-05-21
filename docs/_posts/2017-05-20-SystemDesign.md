@@ -7,23 +7,25 @@
 <h2 style="color: #2e6c80;">Sequence diagram </h2>
 <h4 style="color: #2e6c80;">PIN verification use case</h4>
 <span align="center">
-![sequencedg image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
+![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
-
+</div>
+<div>
 <h4 style="color: #2e6c80;">View Report use case</h4>
 <span align="center">
-![sequencedg image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Add new transaction")
+![sequencedg2 image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Sequence Diagram for report")
 </span>
 </div>
 
 <div>
 <h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
-![usecaseDiagram3 image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
+![classdg image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
 </span>
-
 <h3 style="color: #2e6c80;">Detail description of classes and there associations</h3>
+</div>
 
+<div>
 <ol>
   <li>
       <p><b>User class</b></p>

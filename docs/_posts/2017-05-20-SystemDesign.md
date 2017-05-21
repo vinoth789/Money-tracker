@@ -5,13 +5,13 @@
 
 <div>
 <h2 style="color: #2e6c80;">Sequence diagram </h2>
-<h4 style="color: #2e6c80;">PIN verification use case</h4>
+<h3 style="color: #2e6c80;">PIN verification use case</h3>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
 </div>
 <div>
-<h4 style="color: #2e6c80;">View Report use case</h4>
+<h3 style="color: #2e6c80;">View Report use case</h3>
 <span align="center">
 ![sequencedg2 image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Sequence Diagram for report")
 </span>
@@ -22,7 +22,7 @@
 <span align="center">
 ![classdg image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
 </span>
-<h3 style="color: #2e6c80;">Detail description of classes and there associations</h3>
+<h2 style="color: #2e6c80;">Detail description of classes and there associations</h2>
 </div>
 
 <div>
@@ -104,19 +104,21 @@
   </ul>
  </li>
 </ol>
+</div>
 
+<div>
 <h2 style="color: #2e6c80;">Development Stratergies </h2>
 <ul>
-  <li>All user stories are broken down into several Epics and logged in Backlog</li>
-  <li>Weekly SPRINT will be followed</li>
-  <li>SPRINT planning is done every Monday and tasks are discussed and assigned to weekly sprint</li>
-  <li>Assigned tasks are analysed and impediments are discussed in stand up meetings</li>
-  <li>SPRRINT review is done every friday. Completed or pending tasks will be discussed</li>
-  <li>
-      <p>Tools used for development:</p>
-      <ul>
-          <li>Andriod Studio </li>
-          <li>Emulator </li>
+    <li><p>All user stories are broken down into several Epics and logged in Backlog</p></li>
+    <li><p>Weekly SPRINT will be followed</p></li>
+    <li><p>SPRINT planning is done every Monday and tasks are discussed and assigned to weekly sprint</p></li>
+    <li><p>Assigned tasks are analysed and impediments are discussed in stand up meetings</p></li>
+    <li><p>SPRRINT review is done every friday. Completed or pending tasks will be discussed</p></li>
+    <li>
+        <p>Tools used for development:</p>
+        <ul>
+        <li><p>Andriod Studio</p> </li>
+        <li><p>Emulator </p></li>
       </ul>
   </li>
 </ul>

@@ -34,12 +34,13 @@
                    <li><p>getPIN() - gets PIN on request</p></li>
               </ul>
           </li>
-       </ul> 
-    </li>
-    <li>
+          <li>
         <p>Every user after login will be allowed to select one curreny type. Hence user is associated with minimum of one currency type          and maxximum of any number of currency types available  
         </p>
-    </li> 
+          </li> 
+       </ul> 
+    </li>
+
 
     <li>
           <p><b>CurrencyType class</b></p>

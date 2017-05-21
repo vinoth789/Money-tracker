@@ -73,15 +73,6 @@
        </ul> 
     </li>
 
-
-
-
-
-
-
-
-
-
 <li><p><b>Transaction class</b></p>
      <ul>
          <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer<p></li>
@@ -115,5 +106,20 @@
  </li>
 </ol>
 
+<h2 style="color: #2e6c80;">Development Stratergies </h2>
+<ul>
+  <li>All user stories are broken down into several Epics and logged in Backlog</li>
+  <li>Weekly SPRINT will be followed</li>
+  <li>SPRINT planning is done every Monday and tasks are discussed and assigned to weekly sprint</li>
+  <li>Assigned tasks are analysed and impediments are discussed in stand up meetings</li>
+  <li>SPRRINT review is done every friday. Completed or pending tasks will be discussed</li>
+  <li>
+      <p>Tools used for development:</p>
+      <ul>
+          <li>Andriod Studio </li>
+          <li>Emulator </li>
+      </ul>
+  </li>
+</ul>
 </div>
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

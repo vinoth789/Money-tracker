@@ -29,7 +29,7 @@
       <p><b>User class</b></p>
        <ul>
          <li><p>Contains attribute PIN of type integer. Accepts PIN of length 4</p></li>
-         <li>Contains three methods :
+         <li><p>Contains three methods :</p>
               <ul>
                   <li><p>verifyPIN(int PIN) - verifies if entered pin is of lenght 4 and user authentication</p></li>
                   <li><p>setPIN(int PIN) - sets passed pin when user has logged in for the first time</p></li>
@@ -41,10 +41,11 @@
     </li>
 
 
-<li><p><b>CurrencyType class</b></p>
-     <ul>
-         <li><p>Contains attribute currencyType of type String<p></li>
-         <li>Contains getters and setters to get and set value of currency type across the application as it is made private :
+  <li>
+      <p><b>CurrencyType class</b></p>
+      <ul>
+         <li><p>Contains attribute currencyType of type String</p></li>
+         <li><p>Contains getters and setters to get and set value of currency type across the application as it is made private :</p>
               <ul>
                   <li><p>getCurrenyType() - returns currency type value set for the application</p></li>
                   <li><p>setCurrencyType(String currencyType) - sets currency type value</p></li>
@@ -59,8 +60,8 @@
 
 <li><p><b>Item class</b></p>
      <ul>
-         <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist<p></li>
-         <li>Contains one method :
+         <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist</p></li>
+         <li><p>Contains one method :</p>
               <ul>
                   <li><p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined </p></li>
               </ul>
@@ -73,8 +74,8 @@
 
 <li><p><b>Transaction class</b></p>
      <ul>
-         <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer<p></li>
-         <li>Contains two methods :
+         <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer</p></li>
+         <li><p>Contains two methods :</p>
               <ul>
                   <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p></li>
                   <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p></li>
@@ -91,7 +92,7 @@
      <p> <b>Report class</b></p>
      <ul>
      <li><p>Contains attribute startDate and endDate of type Date and Category of type enum</p></li>
-     <li>Contains three methods :
+     <li><p>Contains three methods :</p>
           <ul>
                <li><p>generateReport(startDate Date, endDate Date) - Generates report based on the given range of date values</p></li>
                 <li><p>generateReport(Category category) - Generates report based on the selected category value</p></li>

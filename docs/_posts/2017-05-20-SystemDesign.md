@@ -121,7 +121,7 @@
  
  <div>
  <li>
- <p><b>Enumerations :</b></p>
+ <p><b>Enumerations </b></p>
     <ul>
         <li><p>Category enum contains value income and expense</p></li> 
         <li><p>Currency enum contains various currency values</p></li>
@@ -147,7 +147,7 @@
          </span>
     </div>
     <div>
-    <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application </h2>
+    <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application are: </h2>
     <ul>
     <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
     <li><p>Allows for easier code maintenance and faster development process</p></li>
@@ -165,6 +165,8 @@
     <li><p>SPRINT planning is done every Monday and tasks are discussed and assigned to weekly sprint</p></li>
     <li><p>Assigned tasks are analysed and impediments are discussed in stand up meetings</p></li>
     <li><p>SPRRINT review is done every friday. Completed or pending tasks will be discussed</p></li>
+    <li><p>Iteravtive Model appproach is followed</p></li>
+    <li><p>Agile Methodology in practice</p></li>
     <li>
         <p>Tools used for development:</p>
         <ul>
@@ -174,4 +176,13 @@
   </li>
 </ul>
 </div>
+
+<div>
+<h2 style="color: #2e6c80;">Key changes in project requirement </h2>
+<ul>
+    <li><p>Change in currency for existing transaction was discarded as it requires calculation involved in currency conversion on fly. Now user will be allowed to select currency during launching of App 1st time</p></li>
+    <li><p></p></li>
+</ul>
+</div>
+
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

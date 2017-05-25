@@ -19,7 +19,7 @@
 <div>
 <h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
-![classdg image]({{site.baseurl}}/images/MTClassDg.PNG "View report")
+![classdg image]({{site.baseurl}}/images/MTUpdatedCD.PNG "View report")
 </span>
 <h2 style="color: #2e6c80; ">Detail description of classes and there associations</h2>
 </div>
@@ -71,8 +71,16 @@
 <div>
 <li><p><b>Item</b></p>
      <ul>
-         <li><p>Contains attributes : amount of type integer,Note of type string, Category of type enum,subCategory of type                          Arraylist</p></li>
-         <li><p>Contains one method :</p>
+     <li><p>Attributes: </p>
+               <ul>
+                  <li><p>amount - integer</p></li>
+                  <li><p>Note -  String</p></li>
+                  <li><p>Category - enum</p></li>
+                  <li><p>subCategory - Arraylist</p></li>
+              </ul>
+         </li>
+     
+         <li><p>Method :</p>
               <ul>
                   <li><p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined </p></li>
               </ul>
@@ -86,9 +94,16 @@
 
 <div>
 <li><p><b>Transaction</b></p>
-     <ul>
-         <li><p>Contains attribute totalBalance, totalIncome and totalExpense of type integer</p></li>
-         <li><p>Contains two methods :</p>
+     <ul>   
+      <li><p>Attributes: </p>
+               <ul>
+                  <li><p>totalBalance - integer</p></li>
+                  <li><p>totalIncome -  integer</p></li>
+                  <li><p>totalExpense - integer</p></li>
+              </ul>
+         </li>
+     
+         <li><p>Methods :</p>
               <ul>
                   <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p></li>
                   <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p></li>
@@ -101,12 +116,43 @@
     </li>
 </div>
 
+
+<div>
+<li><p><b>TransactionManagement</b></p>
+     <ul>   
+      <li><p>Attributes: </p>
+               <ul>
+                  <li><p>transactionManagementInstance - TransactionManagement</p></li>
+              </ul>
+         </li>
+     
+         <li><p>Methods :</p>
+              <ul>
+                  <li><p>TransactionManagement() - Private constructor with do nothing</p></li>
+                  <li><p>getInstance() - Checks if the instance of transaction management class exists, if exists then returns same instance else it will create an instance and returns it.</p></li>
+              </ul>
+          </li>
+          <li>
+        <p>One or many transaction class can have only one instance of TransactionManagement</p>
+          </li> 
+       </ul> 
+    </li>
+</div>
+
 <div>
 <li>
      <p> <b>Report</b></p>
      <ul>
-     <li><p>Contains attribute startDate and endDate of type Date and Category of type enum</p></li>
-     <li><p>Contains three methods :</p>
+     
+        <li><p>Attributes: </p>
+               <ul>
+                  <li><p>startDate - Date</p></li>
+                  <li><p>endDate -  Date</p></li>
+                  <li><p>Category - enum</p></li>
+              </ul>
+         </li>
+  
+     <li><p>Methods :</p>
           <ul>
                <li><p>generateReport(startDate Date, endDate Date) - Generates report based on the given range of date values</p></li>
                 <li><p>generateReport(Category category) - Generates report based on the selected category value</p></li>
@@ -139,22 +185,37 @@
 <div>
     <h2 style="color: #2e6c80;">Design Pattern </h2>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
-    <p>Our Money Tracker application will be built incorporating <b>Model-View-Controller pattern</b></p>
+    <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
     <div>
-        <h2 style="color: #2e6c80;">Below scenario shows how MVC pattern is applied for Money Tracker app </h2>
+        <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
+        <span align="center">
+        ![classdg image]({{site.baseurl}}/images/SingletonPattern.PNG "Singleton Pattern")
+         </span>
+        
         <span align="center">
         ![classdg image]({{site.baseurl}}/images/MVCPattern.PNG "MVC Pattern")
          </span>
     </div>
     <div>
     <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application are: </h2>
+    <ol>
+    <li>
+     <ul>
+    <li><p>Since Money tracker application is specific to one single user, having one object instantiated for management of complete transaction is much suitable</p></li>
+    <li><p>Since the class controls the instantiation process, the class has the flexibility to change the instantiation process</p>   </li>
+    </ul>
+    </li>
+    
+    <li>
     <ul>
     <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
     <li><p>Allows for easier code maintenance and faster development process</p></li>
     <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>
     <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
     </ul>
-    </div>
+    </li>
+   </ol>
+   </div>
 </div>
 
 <div>

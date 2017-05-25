@@ -94,51 +94,51 @@
 
 
 <div>
-<li><p><b>Transaction</b></p>
-     <ul>   
-      <li><p>Attributes: </p>
+  <li>
+      <p><b>Transaction</b></p>
+      <ul>
+           <li><p>Attributes: </p>
                <ul>
-                  <li><p>totalBalance - integer</p></li>
+                   <li><p>totalBalance - integer</p></li>
                   <li><p>totalIncome -  integer</p></li>
                   <li><p>totalExpense - integer</p></li>
               </ul>
          </li>
-     
-         <li><p>Methods :</p>
+         <li><p>Methods:</p>
               <ul>
                   <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p></li>
                   <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p></li>
               </ul>
           </li>
-          <li>
-       <li> <p>Every transaction consits of atleast one Item. Transaction inherits class Item, hence has acess to all attributes and methods defined in class Items and one or many transaction will involve in generating the report.Basically handles all actions involved in adding and maintaining of transactions under Income or Expense category</p>
-          </li> 
+          <li><p>Every transaction consits of atleast one Item. Transaction inherits class Item, hence has acess to all attributes and methods defined in class Items and one or many transaction will involve in generating the report.Basically handles all actions involved in adding and maintaining of transactions under Income or Expense category</p> </li> 
        </ul> 
     </li>
 </div>
 
 
+
 <div>
-<li><p><b>TransactionManagement</b></p>
-     <ul>   
-      <li><p>Attributes: </p>
+  <li>
+      <p><b>TransactionManagement</b></p>
+      <ul>
+           <li><p>Attributes: </p>
                <ul>
                   <li><p>transactionManagementInstance - TransactionManagement</p></li>
               </ul>
          </li>
-     
-         <li><p>Methods :</p>
+         <li><p>Methods:</p>
               <ul>
                   <li><p>TransactionManagement() - Private constructor with do nothing</p></li>
-                  <li><p>getInstance() - Checks if the instance of transaction management class exists, if exists then returns same instance else it will create an instance and returns it.</p></li>
+                  <li><p>getInstance() - Checks if the instance of transaction management class exists, if exists then returns same instance else it will create an instance and returns it</p></li>
+                  
               </ul>
           </li>
-          <li>
-        <p>One or many transaction class can have only one instance of TransactionManagement</p>
-          </li> 
+          <li><p>One or many transaction class can have only one instance of TransactionManagement</p> </li> 
        </ul> 
     </li>
 </div>
+
+
 
 <div>
 <li>

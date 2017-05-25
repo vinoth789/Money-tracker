@@ -125,7 +125,7 @@
                <ul>
                   <li><p>transactionManagementInstance - TransactionManagement</p></li>
               </ul>
-         </li>
+           </li>
          <li><p>Methods:</p>
               <ul>
                   <li><p>TransactionManagement() - Private constructor with do nothing</p></li>
@@ -139,32 +139,30 @@
 </div>
 
 
-
 <div>
-<li>
-     <p> <b>Report</b></p>
-     <ul>
-     
-        <li><p>Attributes: </p>
+  <li>
+      <p><b>Report</b></p>
+       <ul>
+         <li><p>Attributes: </p>
                <ul>
                   <li><p>startDate - Date</p></li>
                   <li><p>endDate -  Date</p></li>
                   <li><p>Category - enum</p></li>
               </ul>
          </li>
-  
-     <li><p>Methods :</p>
-          <ul>
-               <li><p>generateReport(startDate Date, endDate Date) - Generates report based on the given range of date values</p></li>
-                <li><p>generateReport(Category category) - Generates report based on the selected category value</p></li>
-                <li><p>Plot() - Plots the graph for given values</p></li>
-          </ul>
-      </li>
-      <li><p>Each report consits atleast one transaction and can take any number of transactions based on the defined date range or                   category. It will fetch required data and plots in Bar graph/ Pie or Line chart</p>
-      </li>
-  </ul>
- </li>
- </div>
+         <li><p>Methods :</p>
+              <ul>
+                  <li><p>generateReport(startDate Date, endDate Date) - Generates report based on the given range of date values</p></li>
+                  <li><p>generateReport(Category category) - Generates report based on the selected category value</p></li>
+                  <li><p>Plot() - Plots the graph for given values</p></li>
+              </ul>
+          </li>
+          <li><p>Each report consits atleast one transaction and can take any number of transactions based on the defined date range or                   category. It will fetch required data and plots in Bar graph/ Pie or Line chart </p></li> 
+       </ul> 
+    </li>
+  </div>
+
+
  
  <div>
  <li>

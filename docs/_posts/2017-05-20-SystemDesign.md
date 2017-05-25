@@ -3,13 +3,13 @@
 </div>
 
 <h2 style="color: #2e6c80;">Sequence diagram </h2>
-<h2 style="color: #2e6c80;">PIN verification use case</h2>
+<h2 style="color: #2e6c80;">Sequence diagram for PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
 
 
-<h2 style="color: #2e6c80;">View Report use case</h2>
+<h2 style="color: #2e6c80;">Sequence diagram for View Report use case</h2>
 <span align="center" style="width:60px;">
 ![usecasediagram image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Add new transaction")
 </span>
@@ -182,8 +182,10 @@
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
-        <img style="align:center;" src="/isee2017-codecrunch/images/SingletonPattern.png" alt="Alt text"/>       
-        <img style="align:center;" src="/isee2017-codecrunch/images/MVCPattern.png" alt="Alt text"/>
+        <img style="align:center;" src="/isee2017-codecrunch/images/SingletonPattern.png" alt="Singleton Pattern"/>  
+        <p>Fig(a) Singleton pattern </p>
+        <img style="align:center;" src="/isee2017-codecrunch/images/MVCPattern.png" alt="MVC Pattern"/>
+        <p>Fig(b) MVC pattern </p>
  </div>
     
  <div>

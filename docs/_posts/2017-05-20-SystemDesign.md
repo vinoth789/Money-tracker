@@ -116,27 +116,26 @@
 </div>
 
 
-
 <div>
   <li>
       <p><b>TransactionManagement</b></p>
       <ul>
            <li><p>Attributes: </p>
                <ul>
-                  <li><p>transactionManagementInstance - TransactionManagement</p></li>
+                 <li><p>transactionManagementInstance - TransactionManagement</p></li>
               </ul>
-           </li>
+         </li>
          <li><p>Methods:</p>
               <ul>
                   <li><p>TransactionManagement() - Private constructor with do nothing</p></li>
-                  <li><p>getInstance() - Checks if the instance of transaction management class exists, if exists then returns same instance else it will create an instance and returns it</p></li>
-                  
+                   <li><p>getInstance() - Checks if the instance of transaction management class exists, if exists then returns same instance else it will create an instance and returns it</p></li>
               </ul>
           </li>
           <li><p>One or many transaction class can have only one instance of TransactionManagement</p> </li> 
        </ul> 
     </li>
 </div>
+
 
 
 <div>
@@ -174,17 +173,15 @@
     </ul>
  </li>
  </div>
- 
- 
+  
 </ol>
 </div>
+
 
 <div>
     <h2 style="color: #2e6c80;">Design Pattern </h2>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
-
-    <div>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
         <span align="center">
         ![classdg image]({{site.baseurl}}/images/SingletonPattern.PNG "Singleton Pattern")
@@ -193,27 +190,19 @@
         <span align="center">
         ![classdg image]({{site.baseurl}}/images/MVCPattern.PNG "MVC Pattern")
          </span>
-    </div>
+ </div>
     
  <div>
    <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application are: </h2>
-   <ol>
-      <li>
         <ul>
-            <li><p>Since Money tracker application is specific to one single user, having one object instantiated for management of complete transaction is much suitable</p></li>
+            <li><p>Since Money tracker application is specific to one single user, having Singleton pattern to instantiate object for management of complete transaction is much suitable</p></li>
             <li><p>Since the class controls the instantiation process, the class has the flexibility to change the instantiation process</p> </li>
-       </ul>
-     </li>
-    
-  <li>  
-    <ul>
+
       <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
       <li><p>Allows for easier code maintenance and faster development process</p></li>
       <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>
       <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
     </ul>
-   </li>
-  </ol>
 </div>
 
 <div>

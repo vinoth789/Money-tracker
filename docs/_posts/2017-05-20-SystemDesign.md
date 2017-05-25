@@ -26,6 +26,7 @@
 
 <div>
 <ol>
+
 <div>
   <li>
       <p><b>UserDetails</b></p>
@@ -181,13 +182,11 @@
 </ol>
 </div>
 
-
-
 <div>
     <h2 style="color: #2e6c80;">Design Pattern </h2>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
-    
+
     <div>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
         <span align="center">
@@ -216,9 +215,8 @@
       <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>
       <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
     </ul>
-  </li>
-</ol>
-</div>
+   </li>
+  </ol>
 </div>
 
 <div>

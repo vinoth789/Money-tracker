@@ -18,7 +18,7 @@
 
 <h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
-![classdg image]({{site.baseurl}}/images/MTUpdatedCD.PNG "View report")
+![classdg image]({{site.baseurl}}/images/MTUpdatedCD.png "View report")
 </span>
 <h2 style="color: #2e6c80; ">Detail description of classes and there associations</h2>
 
@@ -182,8 +182,8 @@
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
-        <img style="align:center;" src="/isee2017-codecrunch/images/SingletonPattern.PNG" alt="Alt text"/>       
-        <img style="align:center;" src="/isee2017-codecrunch/images/MVCPattern.PNG" alt="Alt text"/>
+        <img style="align:center;" src="/isee2017-codecrunch/images/SingletonPattern.png" alt="Alt text"/>       
+        <img style="align:center;" src="/isee2017-codecrunch/images/MVCPattern.png" alt="Alt text"/>
  </div>
     
  <div>

@@ -69,30 +69,29 @@
     </li>
 </div>
 
+
 <div>
-<li>
-  <p><b>Item</b></p>
-     <ul>
-     <li><p>Attributes: </p>
+  <li>
+      <p><b>Item</b></p>
+      <ul>
+           <li><p>Attributes: </p>
                <ul>
-                  <li><p>amount - integer</p></li>
+                 <li><p>amount - integer</p></li>
                   <li><p>Note -  String</p></li>
                   <li><p>Category - enum</p></li>
                   <li><p>subCategory - Arraylist</p></li>
               </ul>
          </li>
-     
-         <li><p>Method :</p>
+         <li><p>Methods:</p>
               <ul>
                   <li><p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined </p></li>
               </ul>
           </li>
-          <li>
-        <p>Every Item is associated with one currencyType and one item per transaction</p>
-          </li> 
+          <li><p>Every Item is associated with one currencyType and one item per transaction</p> </li> 
        </ul> 
     </li>
 </div>
+
 
 <div>
 <li><p><b>Transaction</b></p>

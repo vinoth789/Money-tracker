@@ -69,7 +69,8 @@
 </div>
 
 <div>
-<li><p><b>Item</b></p>
+<li>
+  <p><b>Item</b></p>
      <ul>
      <li><p>Attributes: </p>
                <ul>
@@ -110,7 +111,7 @@
               </ul>
           </li>
           <li>
-        <p>Every transaction consits of atleast one Item. Transaction inherits class Item, hence has acess to all attributes and methods defined in class Items and one or many transaction will involve in generating the report.Basically handles all actions involved in adding and maintaining of transactions under Income or Expense category</p>
+       <li> <p>Every transaction consits of atleast one Item. Transaction inherits class Item, hence has acess to all attributes and methods defined in class Items and one or many transaction will involve in generating the report.Basically handles all actions involved in adding and maintaining of transactions under Income or Expense category</p>
           </li> 
        </ul> 
     </li>
@@ -186,6 +187,7 @@
     <h2 style="color: #2e6c80;">Design Pattern </h2>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
+    
     <div>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
         <span align="center">
@@ -196,26 +198,27 @@
         ![classdg image]({{site.baseurl}}/images/MVCPattern.PNG "MVC Pattern")
          </span>
     </div>
-    <div>
-    <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application are: </h2>
-    <ol>
-    <li>
-     <ul>
-    <li><p>Since Money tracker application is specific to one single user, having one object instantiated for management of complete transaction is much suitable</p></li>
-    <li><p>Since the class controls the instantiation process, the class has the flexibility to change the instantiation process</p>   </li>
-    </ul>
-    </li>
     
-    <li>
+ <div>
+   <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application are: </h2>
+   <ol>
+      <li>
+        <ul>
+            <li><p>Since Money tracker application is specific to one single user, having one object instantiated for management of complete transaction is much suitable</p></li>
+            <li><p>Since the class controls the instantiation process, the class has the flexibility to change the instantiation process</p> </li>
+       </ul>
+     </li>
+    
+  <li>  
     <ul>
-    <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
-    <li><p>Allows for easier code maintenance and faster development process</p></li>
-    <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>
-    <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
+      <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
+      <li><p>Allows for easier code maintenance and faster development process</p></li>
+      <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>
+      <li><p>Modifications in one of the layer doesn't require changes in the other layer</p></li>
     </ul>
-    </li>
-   </ol>
-   </div>
+  </li>
+</ol>
+</div>
 </div>
 
 <div>

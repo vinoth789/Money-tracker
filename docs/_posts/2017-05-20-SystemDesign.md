@@ -18,7 +18,7 @@
 
 <h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
-![classdg image]({{site.baseurl}}/images/MTUpdatedCD.png "View report")
+![classdg image]({{site.baseurl}}/images/MTCD.png "Class Diagram")
 </span>
 <h2 style="color: #2e6c80; ">Detail description of classes and there associations</h2>
 

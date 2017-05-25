@@ -185,8 +185,7 @@
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern is applied for Money Tracker app </h2>
         <span align="center">
         ![classdg image]({{site.baseurl}}/images/SingletonPattern.PNG "Singleton Pattern")
-         </span>
-        
+         </span>       
         <span align="center">
         ![classdg image]({{site.baseurl}}/images/MVCPattern.PNG "MVC Pattern")
          </span>
@@ -197,7 +196,6 @@
         <ul>
             <li><p>Since Money tracker application is specific to one single user, having Singleton pattern to instantiate object for management of complete transaction is much suitable</p></li>
             <li><p>Since the class controls the instantiation process, the class has the flexibility to change the instantiation process</p> </li>
-
       <li><p>MVC pattern seperates application concerns, keeping input, processing and output in different layers</p></li>
       <li><p>Allows for easier code maintenance and faster development process</p></li>
       <li><p>Provides multiple view as it is necessary in viewing the Report</p></li>

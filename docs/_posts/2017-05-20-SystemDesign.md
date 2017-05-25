@@ -2,13 +2,12 @@
 <h2 style="color: #000000; text-align:center;">Welcome to our Third Blog, you will see information about the Interaction and Class diagrams, Design patterns and statergies used in Development process</h2>
 </div>
 
-<div>
 <h2 style="color: #2e6c80;">Sequence diagram </h2>
 <h2 style="color: #2e6c80;">PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
-</div>
+
 <div>
 <h2 style="color: #2e6c80;">View Report use case</h2>
 <span align="center">

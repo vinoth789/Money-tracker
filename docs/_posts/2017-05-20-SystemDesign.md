@@ -32,12 +32,12 @@
   <li>
      <h2 style="color: #2e6c80;">UserDetails</h2>
        <ul>
-         <li><p>Attributes: </p>
+       <li><p><b>Attributes: </b></p>
                <ul>
                   <li><p>PIN - Integer(Accepts PIN of length 4)</p></li>
               </ul>
          </li>
-         <li><p>Methods :</p>
+         <li><p><b>Methods :</b></p>
               <ul>
                   <li><p>verifyPIN(int PIN) - verifies if entered pin is of lenght 4 and user authentication</p></li>
                   <li><p>setPIN(int PIN) - sets passed pin when user has logged in for the first time</p></li>
@@ -51,14 +51,14 @@
 
 <div>
   <li>
-      <p><b>CurrencyType</b></p>
+     <h2 style="color: #2e6c80;">CurrencyType</h2>
       <ul>
-           <li><p>Attributes: </p>
+      <li><p><b>Attributes: </b></p>
                <ul>
                   <li><p>currencyType - String</p></li>
               </ul>
          </li>
-         <li><p>Methods:</p>
+         <li><p><b>Methods:</b></p>
               <ul>
                   <li><p>getCurrenyType() - returns currency type value set for the application</p></li>
                   <li><p>setCurrencyType(String currencyType) - sets currency type value</p></li>
@@ -73,9 +73,9 @@
 
 <div>
   <li>
-      <p><b>Item</b></p>
+      <h2 style="color: #2e6c80;">Item</h2>
       <ul>
-           <li><p>Attributes: </p>
+      <li><p><b>Attributes: </b></p>
                <ul>
                  <li><p>amount - integer</p></li>
                   <li><p>Note -  String</p></li>
@@ -83,7 +83,7 @@
                   <li><p>subCategory - Arraylist</p></li>
               </ul>
          </li>
-         <li><p>Methods:</p>
+         <li><p><b>Methods:</b></p>
               <ul>
                   <li><p>addSubCategory(Item item) - adds custom defined subCategory of type item to Arraylist of subCategories which is predefined </p></li>
               </ul>
@@ -96,16 +96,16 @@
 
 <div>
   <li>
-      <p><b>Transaction</b></p>
+      <h2 style="color: #2e6c80;">Transaction</h2>
       <ul>
-           <li><p>Attributes: </p>
+      <li><p><b>Attributes: </b></p>
                <ul>
                    <li><p>totalBalance - integer</p></li>
                   <li><p>totalIncome -  integer</p></li>
                   <li><p>totalExpense - integer</p></li>
               </ul>
          </li>
-         <li><p>Methods:</p>
+         <li><p><b>Methods:</b></p>
               <ul>
                   <li><p>addTransaction(Item item, String note, Category category, String subCategory) - Adds transaction for selected category and subCategory with note and amount details</p></li>
                   <li><p>Calculate() - calculates total balance, expense and income for every transaction and keeps application with updated values</p></li>
@@ -119,14 +119,14 @@
 
 <div>
   <li>
-      <p><b>TransactionManagement</b></p>
+      <h2 style="color: #2e6c80;">TransactionManagement</h2>
       <ul>
-           <li><p>Attributes: </p>
+      <li><p><b>Attributes: </b></p>
                <ul>
                  <li><p>transactionManagementInstance - TransactionManagement</p></li>
               </ul>
          </li>
-         <li><p>Methods:</p>
+         <li><p><b>Methods:</b></p>
               <ul>
                   <li><p>TransactionManagement() - Private constructor with do nothing</p></li>
                    <li><p>getInstance() - Checks if the instance of transaction management class exists, if exists then returns same instance else it will create an instance and returns it</p></li>
@@ -141,16 +141,16 @@
 
 <div>
   <li>
-      <p><b>Report</b></p>
+  <h2 style="color: #2e6c80;">Report</h2>
        <ul>
-         <li><p>Attributes: </p>
+       <li><p><b>Attributes: </b></p>
                <ul>
                   <li><p>startDate - Date</p></li>
                   <li><p>endDate -  Date</p></li>
                   <li><p>Category - enum</p></li>
               </ul>
          </li>
-         <li><p>Methods :</p>
+         <li><p><b>Methods :</b></p>
               <ul>
                   <li><p>generateReport(startDate Date, endDate Date) - Generates report based on the given range of date values</p></li>
                   <li><p>generateReport(Category category) - Generates report based on the selected category value</p></li>
@@ -166,7 +166,7 @@
  
  <div>
  <li>
- <p><b>Enumerations </b></p>
+ <h2 style="color: #2e6c80;">Enumerations </h2>
     <ul>
         <li><p>Category enum contains value income and expense</p></li> 
         <li><p>Currency enum contains various currency values</p></li>
@@ -180,7 +180,7 @@
 
 
 <div>
-    <h2 style="color: #2e6c80; text-decoration:underline;">Design Pattern </h2>
+    <h1 style="color: #2e6c80; text-decoration:underline; text-align:center;">Design Pattern </h1>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern can be applied for Money Tracker app </h2>
@@ -203,7 +203,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80; text-decoration:underline;">Development Stratergies </h2>
+<h1 style="color: #2e6c80; text-decoration:underline; text-align:center;">Development Stratergies </h1>
 <ul>
     <li><p>All user stories are broken down into several Epics and logged in Backlog</p></li>
     <li><p>Weekly SPRINT will be followed</p></li>
@@ -223,7 +223,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80; text-decoration:underline;">Key changes in project requirement </h2>
+<h1 style="color: #2e6c80; text-decoration:underline; text-align:center;">Key changes in project requirement </h1>
 <ul>
     <li><p>Change in currency type for existing transaction was discarded as it requires currency conversion calculation on fly. Now user will be allowed to select currency only during launch of application for the 1st time</p></li>
     <li><p>Authenticating user by username and password was replaced by 4-digit PIN </p></li>

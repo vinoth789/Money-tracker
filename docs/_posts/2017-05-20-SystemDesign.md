@@ -2,7 +2,7 @@
 <h2 style="color: #000000; text-align:center;">Welcome to our Third Blog, you will see information about the Interaction and Class diagrams, Design patterns and statergies used in Development process</h2>
 </div>
 
-<h2 style="color: #2e6c80;">Sequence diagram </h2>
+<h2 style="color: #2e6c80; text-decoration:underline;">Sequence diagram </h2>
 <h2 style="color: #2e6c80;">Sequence diagram for PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
@@ -17,7 +17,7 @@
 
 <p>Above sequence diagram shows View Report process,Process begins when user requests to view his statistics of expense and income. User can either view report by filtering by date or by category. Depending on user request of filters, relevant information is fetched and plot based on chosen representation type.</p>
 
-<h2 style="color: #2e6c80;">Class Diagram </h2>
+<h2 style="color: #2e6c80; text-decoration:underline;">Class Diagram </h2>
 <span align="center">
 ![classdg image]({{site.baseurl}}/images/MTCD.png "Class Diagram")
 </span>
@@ -180,7 +180,7 @@
 
 
 <div>
-    <h2 style="color: #2e6c80;">Design Pattern </h2>
+    <h2 style="color: #2e6c80; text-decoration:underline;">Design Pattern </h2>
     <p>Design pattern is one of the best practices applied in object oriented programming. It provides standard terminology and are specific to certain scenarios.</p>
     <p>Our Money Tracker application will be built on creational pattern i.e, <b>Singleton Pattern</b> and can also include <b>Model-View-Controller pattern</b></p>
         <h2 style="color: #2e6c80;">Below scenario shows how Signleton pattern and MVC pattern can be applied for Money Tracker app </h2>
@@ -191,7 +191,7 @@
  </div>
     
  <div>
-   <h2 style="color: #2e6c80;">Reasons why we are incorporating this design pattern in our application are: </h2>
+   <h2 style="color: #2e6c80; text-decoration:underline;">Reasons why we are incorporating this design pattern in our application are: </h2>
         <ul>
             <li><p>Since Money tracker application is specific to one single user, having Singleton pattern to instantiate object for management of complete transaction is much suitable</p></li>
             <li><p>Since the class controls the instantiation process, the class has the flexibility to change the instantiation process</p> </li>
@@ -203,7 +203,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">Development Stratergies </h2>
+<h2 style="color: #2e6c80; text-decoration:underline;">Development Stratergies </h2>
 <ul>
     <li><p>All user stories are broken down into several Epics and logged in Backlog</p></li>
     <li><p>Weekly SPRINT will be followed</p></li>
@@ -223,7 +223,7 @@
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">Key changes in project requirement </h2>
+<h2 style="color: #2e6c80; text-decoration:underline;">Key changes in project requirement </h2>
 <ul>
     <li><p>Change in currency type for existing transaction was discarded as it requires currency conversion calculation on fly. Now user will be allowed to select currency only during launch of application for the 1st time</p></li>
     <li><p>Authenticating user by username and password was replaced by 4-digit PIN </p></li>

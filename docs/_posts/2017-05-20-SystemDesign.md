@@ -15,7 +15,7 @@
 ![usecasediagram image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Add new transaction")
 </span>
 
-<p>Above sequence diagram shows View Report process,Process begins when user requests to view his statistics of expense and income. User can either view report by filtering by date or by category. Depending on user request of filters, relevant information is fetched and plot based on chosen representation type.</p>
+<p>Above sequence diagram shows View Report process,Process begins when user requests to view his statistics of expense and income. User can either view report by filtering by date or by category. Depending on user request of filters, relevant information is fetched and plotted based on chosen representation type.</p>
 
 <h1 style="color: #2e6c80; text-align:center;">Class Diagram </h1>
 <span align="center">
@@ -227,7 +227,7 @@
 <ul>
     <li><p>Change in currency type for existing transaction was discarded as it requires currency conversion calculation on fly. Now user will be allowed to select currency only during launch of application for the 1st time</p></li>
     <li><p>Authenticating user by username and password was replaced by 4-digit PIN </p></li>
-    <li><p>As per the initial design, selecting whether the transaction is on income or expense was on the transaction page. As part of the change, onclick of the 'Add transaction' in the home screen the user will now be able to select an option i.e income/expense in a new screen just before he lands on the transaction page.</p></li>
+    <li><p>As per the initial design, an option to select whether the transaction is on income or expense was on the transaction page. As part of the change, onclick of the 'Add transaction' in the home screen the user will now be able to select an option i.e income/expense in a new screen just before he lands on the transaction page.</p></li>
 </ul>
 </div>
 

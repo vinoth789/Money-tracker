@@ -2,7 +2,7 @@
 <h2 style="color: #000000; text-align:center;">Welcome to our Third Blog, you will see information about the Interaction and Class diagrams, Design patterns and statergies used in Development process</h2>
 </div>
 
-<h2 style="color: #2e6c80; text-decoration:underline;">Sequence diagram </h2>
+<h1 style="color: #2e6c80; text-decoration:underline; text-align:center;">Sequence diagram </h1>
 <h2 style="color: #2e6c80;">Sequence diagram for PIN verification use case</h2>
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
@@ -17,7 +17,7 @@
 
 <p>Above sequence diagram shows View Report process,Process begins when user requests to view his statistics of expense and income. User can either view report by filtering by date or by category. Depending on user request of filters, relevant information is fetched and plot based on chosen representation type.</p>
 
-<h2 style="color: #2e6c80; text-decoration:underline;">Class Diagram </h2>
+<h1 style="color: #2e6c80; text-decoration:underline; text-align:center;">Class Diagram </h1>
 <span align="center">
 ![classdg image]({{site.baseurl}}/images/MTCD.png "Class Diagram")
 </span>
@@ -30,7 +30,7 @@
 
 <div>
   <li>
-      <p><b>UserDetails</b></p>
+     <h2 style="color: #2e6c80;"><p>UserDetails</p></h2>
        <ul>
          <li><p>Attributes: </p>
                <ul>

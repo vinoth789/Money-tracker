@@ -225,8 +225,8 @@
 <div>
 <h2 style="color: #2e6c80;">Key changes in project requirement </h2>
 <ul>
-    <li><p>Change in currency for existing transaction was discarded as it requires calculation involved in currency conversion on fly. Now user will be allowed to select currency during launching of App 1st time</p></li>
-    <li><p>Authenticating user by username and password was replaced by verifying user by 4-digit PIN </p></li>
+    <li><p>Change in currency type for existing transaction was discarded as it requires currency conversion calculation on fly. Now user will be allowed to select currency only during launch of application for the 1st time</p></li>
+    <li><p>Authenticating user by username and password was replaced by 4-digit PIN </p></li>
 </ul>
 </div>
 

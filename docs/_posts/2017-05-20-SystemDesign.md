@@ -7,14 +7,14 @@
 <span align="center">
 ![sequencedg1 image]({{site.baseurl}}/images/MTSeqDgLogin.PNG "Sequence Diagram for Login process")
 </span>
-
+<p>Above sequence diagram shows login process,Process begins when user enters the 4 digit PIN, the entered PIN will be verified. If PIN doesn't exist (during first login) it will be stored. If it is not first login then it will be verified against existing value and user is either authenticated/rejected from acessing application. </p>
 
 <h2 style="color: #2e6c80;">Sequence diagram for View Report use case</h2>
 <span align="center" style="width:60px;">
 ![usecasediagram image]({{site.baseurl}}/images/MTSeqDgReport.PNG "Add new transaction")
 </span>
 
-
+<p>Above sequence diagram shows View Report process,Process begins when user requests to view his statistics of expense and income. User can either view report by filtering by date or by category. Depending on user request of filters, relevant information is fetched and plot based on chosen representation type.</p>
 
 <h2 style="color: #2e6c80;">Class Diagram </h2>
 <span align="center">
@@ -24,6 +24,7 @@
 
 
 <div>
+<p>Below is the detailed explaination of Class diagram with its attributes and associated data types, operation and relationship between classes. </p>
 <ol>
 
 <div>
@@ -224,7 +225,7 @@
 <h2 style="color: #2e6c80;">Key changes in project requirement </h2>
 <ul>
     <li><p>Change in currency for existing transaction was discarded as it requires calculation involved in currency conversion on fly. Now user will be allowed to select currency during launching of App 1st time</p></li>
-    <li><p></p></li>
+    <li><p>Authenticating user by username and password was replaced by verifying user by 4-digit PIN </p></li>
 </ul>
 </div>
 

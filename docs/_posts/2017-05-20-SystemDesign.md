@@ -227,6 +227,7 @@
 <ul>
     <li><p>Change in currency type for existing transaction was discarded as it requires currency conversion calculation on fly. Now user will be allowed to select currency only during launch of application for the 1st time</p></li>
     <li><p>Authenticating user by username and password was replaced by 4-digit PIN </p></li>
+    <li><p>As per the initial design, selecting whether the transaction is on income or expense was on the transaction page. As part of the change, onclick of the 'Add transaction' in the home screen the user will now be able to select an option i.e income/expense in a new screen just before he lands on the transaction page.</p></li>
 </ul>
 </div>
 

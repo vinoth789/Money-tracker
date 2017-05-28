@@ -30,7 +30,7 @@
 
 <div>
   <li>
-     <h2 style="color: #2e6c80;"><p>UserDetails</p></h2>
+     <h2 style="color: #2e6c80;">UserDetails</h2>
        <ul>
          <li><p>Attributes: </p>
                <ul>

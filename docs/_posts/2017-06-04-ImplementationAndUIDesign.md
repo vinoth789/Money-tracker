@@ -28,9 +28,9 @@
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day today expenses, not for group of peoples or doesn't target large scale industrail expenditure maintainance </p>
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
-<ol>
-<li><h2>Students away from home</h2></li>
-</ol>
+
+<h2>1. Students away from home</h2>
+
 <div>
 <table>
 <tr>
@@ -129,8 +129,8 @@
 </table>
 </div>
 
-<h2 style="color: #2e6c80;">Add category :<span style="color: #000000;"> -Estimate (4 days/25-05-2017 to 28-05-2017)</span></h2>
-<p>Categories are further divided in to two sub categories,</p>
+<h2 style="color: #2e6c80;">Mockup of MoneyTracker application :</h2>
+<p>Below is the prototype of Money Tracker application </p>
 
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

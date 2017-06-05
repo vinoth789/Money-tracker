@@ -75,9 +75,8 @@
 </table>
 </div>
 
-<ol>
-<li><h2>Family Maintenance</h2></li>
-</ol>
+<h2>2. Family Maintenance</h2>
+
 <div>
 <table>
 <tr>

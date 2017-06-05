@@ -27,46 +27,49 @@
 </div>
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day today expenses, not for group of peoples or doesn't target large scale industrail expenditure maintainance </p>
-<p>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </p>
+<h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
+<ul>
+<li>Students away from home</li>
+</ul>
 <div>
 <table>
 <tr>
-<th colspan="2">Persona</th>
+<th colspan="4">Persona</th>
 <td colspan="8"> Students (Living away from home/ in hostels)</td>
 </tr>
 
 <tr>
-<th colspan="2">Photo</th>
+<th colspan="4">Photo</th>
 <td colspan="8"> this will be added shortly</td>
 </tr>
 
 <tr>
-<th colspan="2">Fictional name</th>
+<th colspan="4">Fictional name</th>
 <td colspan="8"> Rajesh Koothrapali</td>
 </tr>
 
 <tr>
-<th colspan="2">Major Responsibilities</th>
+<th colspan="4">Major Responsibilities</th>
 <td colspan="8"> Master Student in Digital Engineering and works as Reseacrch assistant</td>
 </tr>
 
 <tr>
-<th colspan="2">Demographics</th>
+<th colspan="4">Demographics</th>
 <td colspan="8"> 23 year old, Master Student in Digital Engineering, Indian and Unmarried</td>
 </tr>
 
 <tr>
-<th colspan="2">Goals and tasks</th>
+<th colspan="4">Goals and tasks</th>
 <td colspan="8"> As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can bare per month for every category like education , entertainment, travelling and groceries, based on his monthly income and also savings he is planning for the future </td>
 </tr>
 
 <tr>
-<th colspan="2">Environment</th>
+<th colspan="4">Environment</th>
 <td colspan="8">As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to spend more on any of this field</td>
 </tr>
 
 <tr>
-<th colspan="2">Quote</th>
+<th colspan="4">Quote</th>
 <td colspan="8">Do not save what is left after spending, spend what is left after saving!!</td>
 </tr>
 

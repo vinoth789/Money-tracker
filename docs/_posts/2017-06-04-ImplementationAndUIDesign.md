@@ -28,9 +28,9 @@
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day today expenses, not for group of peoples or doesn't target large scale industrail expenditure maintainance </p>
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
-<ul>
-<li>Students away from home</li>
-</ul>
+<ol>
+<li><h2>Students away from home</h2></li>
+</ol>
 <div>
 <table>
 <tr>
@@ -71,6 +71,60 @@
 <tr>
 <th colspan="4">Quote</th>
 <td colspan="8">Do not save what is left after spending, spend what is left after saving!!</td>
+</tr>
+</table>
+</div>
+
+<ol>
+<li><h2>Family Maintenance</h2></li>
+</ol>
+<div>
+<table>
+<tr>
+<th colspan="4">Persona</th>
+<td colspan="8"> Head of the family/ Father or Mother</td>
+</tr>
+
+<tr>
+<th colspan="4">Photo</th>
+<td colspan="8"> this will be added shortly</td>
+</tr>
+
+<tr>
+<th colspan="4">Fictional name</th>
+<td colspan="8"> Erlich Bochman</td>
+</tr>
+
+<tr>
+<th colspan="4">Major Responsibilities</th>
+<td colspan="8"> Works as software engineer</td>
+</tr>
+
+<tr>
+<th colspan="4">Demographics</th>
+<td colspan="8"> 30 year old, Software engineer , German and Married</td>
+</tr>
+
+<tr>
+<th colspan="4">Goals and tasks</th>
+<td colspan="8"> As a family person it is very important to maintain the expenses of family members within the flowing in income
+<ul>
+<li>Monthly rental/ house maintenance</li>
+<li>Education of kids</li>
+<li>Health, entertainment and travelling</li>
+<li>Savings for future</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<th colspan="4">Environment</th>
+<td colspan="8">Spending will be more on socializing events rather than for technological events</td>
+</tr>
+
+<tr>
+<th colspan="4">Quote</th>
+<td colspan="8">Save your Money!! you are going to need twice as much as MONEY in your old age then you think!! </td>
 </tr>
 
 </table>

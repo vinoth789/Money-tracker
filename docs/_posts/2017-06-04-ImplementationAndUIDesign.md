@@ -1,16 +1,20 @@
 ﻿<div>
 <h1 style="color: #000000; text-align:center;">Implementation and UI Design</h1>
-<h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, how we came up with the design solutions</h2>
+<h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, whom this application is meant for and prototype of the MoneyTracker application</h2>
 </div>
 <div>
 <h1 style="color: #2e6c80; text-align:center;">Coding Conventions</h1>
-<p>Following are the coding conventions that we will be following,</p>
+<p> A coding standards document tells developers how they must write their code. Instead of each developer coding in their own preferred style, they will write all code to the standards outlined by the organisation or team. This makes sure that a large project is coded in a consistent style and parts are not written differently by different programmers. Not only does this solution make the code easier to understand, but also ensures that any developer who looks at the code will know what to expect throughout the entire application.</p>
+<p>Following are the coding conventions that we will be following: </p>
 <div>
 <ol>
-<li><p>Home screen</p></li>
-<li><p>Add transaction</p></li>
-<li><p>Add category</p></li>
-<li><p>Report.</p></li>
+<li><p>The initial package name representing the domain name must be in lower case. For example, de.ovgu.janardhanast.name.login</p></li>
+<li><p>Classes are always noun and starts with Uppercase letter followed by lowercase </p></li>
+<li><p>Variables always starts with lowercase letter and has mixed case,i.e. it follows camel case convention. Example - Button btnLogin; </p></li>
+<li><p>The variables used to store UI components values satrts with the components followed by noun. Example EditText component used to enter UserName will be named as - EditText etUserName, Radio button that holds income value is named as - RadioButton radiobtnIncome such that user understands clearly</p></li>
+<li> <p>Functions are always verb and named in accordance to what they do, and are written in lowercase </p></li>
+<li><p>Every method and class will hold comments so as to what it does, hence allowing user to quickly understand the functionality</p></li>
+<li><p>Constants are always written in Uppercase with underscore seperating the words. Example - int NUMBER_OF_CATEGORY=5;</p></li>
 </ol>
 </div>
 <h2 style="color: #2e6c80;">Home screen :<span style="color: #000000;"> -Estimate (1 week/09-05-2017 to 16-05-2017)</span></h2>
@@ -20,6 +24,7 @@
 <li><p>Total income and expenses should be displayed in the top section of the screen.</p></li>
 <li><p>Recent transactions for current, previous and next months will be displayed in descending order.</p></li>
 <li><p>There should be an option to change the currency.</p></li>
+<li><p>Two line spacing is maintained between every method and indentation is done</p></li>
 </ol>
 </div>
 <h2 style="color: #2e6c80;">Add transaction :<span style="color: #000000;"> -Estimate (1 week/17-05-2017 to 24-05-2017)</span></h2>

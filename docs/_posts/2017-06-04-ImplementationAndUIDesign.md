@@ -32,7 +32,42 @@
 <table>
 <tr>
 <th colspan="2">Persona</th>
-<td colspan="8"> Student (Living away from home/ in hostels)</td>
+<td colspan="8"> Students (Living away from home/ in hostels)</td>
+</tr>
+
+<tr>
+<th colspan="2">Photo</th>
+<td colspan="8"> this will be added shortly</td>
+</tr>
+
+<tr>
+<th colspan="2">Fictional name</th>
+<td colspan="8"> Rajesh Koothrapali</td>
+</tr>
+
+<tr>
+<th colspan="2">Major Responsibilities</th>
+<td colspan="8"> Master Student in Digital Engineering and works as Reseacrch assistant</td>
+</tr>
+
+<tr>
+<th colspan="2">Demographics</th>
+<td colspan="8"> 23 year old, Master Student in Digital Engineering, Indian and Unmarried</td>
+</tr>
+
+<tr>
+<th colspan="2">Goals and tasks</th>
+<td colspan="8"> As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can bare per month for every category like education , entertainment, travelling and groceries, based on his monthly income and also savings he is planning for the future </td>
+</tr>
+
+<tr>
+<th colspan="2">Environment</th>
+<td colspan="8">As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to spend more on any of this field</td>
+</tr>
+
+<tr>
+<th colspan="2">Quote</th>
+<td colspan="8">Do not save what is left after spending, spend what is left after saving!!</td>
 </tr>
 
 </table>

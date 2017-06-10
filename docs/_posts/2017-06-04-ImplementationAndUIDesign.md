@@ -132,9 +132,9 @@
 <h2 style="color: #2e6c80;">Mockup of MoneyTracker application :</h2>
 <p>Below is the prototype of Money Tracker application </p>
 
-<img style="align:center; height:10px; width:10px;" src="/isee2017-codecrunch/images/TransactionPaperMockUp.jpg" alt="TransactionPaperMockUp.jpg"/> 
+<img style="align:center;" src="/isee2017-codecrunch/images/TransactionPaperMockUp.jpg" alt="TransactionPaperMockUp.jpg"/> 
 
- <img style="align:center; height:10px; width:10px;" src="/isee2017-codecrunch/images/ELogin.png" alt="EnableLogin.png"/>  
+ <img style="align:center;" src="/isee2017-codecrunch/images/ELogin.png" alt="EnableLogin.png"/>  
 
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

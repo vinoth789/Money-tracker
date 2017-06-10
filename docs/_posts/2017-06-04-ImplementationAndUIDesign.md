@@ -131,11 +131,13 @@
 
 <h2 style="color: #2e6c80;">Mockup of MoneyTracker application :</h2>
 <p>Below is the prototype of Money Tracker application </p>
-
+<div>
 <img style="align:center;" src="/isee2017-codecrunch/images/TransactionPaperMockUp.jpg" alt="TransactionPaperMockUp.jpg"/> 
+</div>
 
+<div>
  <img style="align:center;" src="/isee2017-codecrunch/images/ELogin.png" alt="EnableLogin.png"/>  
-
+</div>
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>
 

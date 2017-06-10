@@ -132,6 +132,14 @@
 <h2 style="color: #2e6c80;">Mockup of MoneyTracker application :</h2>
 <p>Below is the prototype of Money Tracker application </p>
 
+<span align="center">
+![sequencedg1 image]({{site.baseurl}}/images/TransactionPaperMockUp.jpg "Sequence Diagram for Login process")
+</span>
+
+<span align="center">
+![sequencedg1 image]({{site.baseurl}}/images/EnableLogin.jpg "Sequence Diagram for Login process")
+</span>
+
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>
 

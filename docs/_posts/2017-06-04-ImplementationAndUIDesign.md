@@ -1,7 +1,7 @@
-﻿<div>
+
 <h1 style="color: #000000; text-align:center;">Implementation and UI Design</h1>
 <h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, whom this application is meant for and prototype of the MoneyTracker application</h2>
-</div>
+
 <div>
 <h1 style="color: #2e6c80; text-align:center;">Coding Conventions</h1>
 <p> A coding standards document tells developers how they must write their code. Instead of each developer coding in their own preferred style, they will write all code to the standards outlined by the organisation or team. This makes sure that a large project is coded in a consistent style and parts are not written differently by different programmers. Not only does this solution make the code easier to understand, but also ensures that any developer who looks at the code will know what to expect throughout the entire application.</p>
@@ -132,13 +132,9 @@
 <h2 style="color: #2e6c80;">Mockup of MoneyTracker application :</h2>
 <p>Below is the prototype of Money Tracker application </p>
 
-<span align="center">
-![sequencedg1 image]({{site.baseurl}}/images/TransactionPaperMockUp.jpg "Sequence Diagram for Login process")
-</span>
+<img style="align:center;" src="/isee2017-codecrunch/images/TransactionPaperMockUp.jpg" alt="TransactionPaperMockUp.jpg"/> 
 
-<span align="center">
-![sequencedg1 image]({{site.baseurl}}/images/EnableLogin.jpg "Sequence Diagram for Login process")
-</span>
+ <img style="align:center;" src="/isee2017-codecrunch/images/EnableLogin.jpg" alt="EnableLogin.jpg"/>  
 
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

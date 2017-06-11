@@ -40,7 +40,7 @@
 
 <tr>
 <th colspan="4">Photo</th>
-<td colspan="8"> this will be added shortly</td>
+<td colspan="8"> <img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>  </td>
 </tr>
 
 <tr>
@@ -86,7 +86,7 @@
 
 <tr>
 <th colspan="4">Photo</th>
-<td colspan="8"> this will be added shortly</td>
+<td colspan="8">  <img style="align:center;" src="/isee2017-codecrunch/images/Family.png" alt="Family.png"/>  </td>
 </tr>
 
 <tr>

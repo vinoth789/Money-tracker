@@ -29,8 +29,9 @@
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
 
 <h2>1. Students away from home</h2>
-<img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>
+
 <div>
+<img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>
 <table>
 <tr>
 <th colspan="4">Persona</th>

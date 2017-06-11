@@ -130,9 +130,16 @@
 </div>
 
 <div>
-<h2>Adding Transactions (Income or Expense)</h2>
+<h2>2. Adding Transactions (Income or Expense)</h2>
 <p>Shows the paper prototype for adding the Transaction. User can choose Income or Expense type and navigate to Add Transaction window where he/she will be asked to select subcategory of selected Income/Expense type, amount and Date. Once done filling and saving transaction, it's data will be updated in Homescreen.  </p>
 <img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.png" alt="TransactionPaperMockUp.jpg"/> 
+</div>
+
+<div>
+<h1>User Interfaces</h1>
+<h2>1. Login</h2>
+<h2>2. Settings</h2>
+<h2>3. Add Transaction</h2>
 </div>
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

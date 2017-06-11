@@ -131,13 +131,17 @@
 
 <h2 style="color: #2e6c80;">Mockup of MoneyTracker application :</h2>
 <p>Below is the prototype of Money Tracker application </p>
+
 <div>
-<img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.jpg" alt="TransactionPaperMockUp.jpg"/> 
+<p>Shows the paper prototype for enabling of login action. From settings one can enable Login option and on entering the application for the next time, authentication and authorisation actions are performed. </p>
+ <img style="align:center;" src="/isee2017-codecrunch/images/LoginEnabling.png" alt="EnableLogin.png"/>  
 </div>
 
 <div>
- <img style="align:center;" src="/isee2017-codecrunch/images/LoginEnabling.png" alt="EnableLogin.png"/>  
+<p>Shows the paper prototype for adding the Transaction. User can choose Income or Expense type and navigate to Add Transaction window where he/she will be asked to select subcategory of selected Income/Expense type, amount and Date. Once done filling and saving transaction, it's data will be updated in Homescreen.  </p>
+<img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.png" alt="TransactionPaperMockUp.jpg"/> 
 </div>
+
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>
 

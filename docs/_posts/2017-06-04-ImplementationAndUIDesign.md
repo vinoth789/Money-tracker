@@ -1,5 +1,4 @@
 
-<h1 style="color: #000000; text-align:center;">Implementation and UI Design</h1>
 <h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, whom this application is meant for and prototype of the MoneyTracker application</h2>
 
 <div>
@@ -30,17 +29,12 @@
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
 
 <h2>1. Students away from home</h2>
-
+<div><img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/></div>
 <div>
 <table>
 <tr>
 <th colspan="4">Persona</th>
 <td colspan="8"> Students (Living away from home/ in hostels)</td>
-</tr>
-
-<tr>
-<th colspan="4">Photo</th>
-<td colspan="8"> <div><img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/></div>  </td>
 </tr>
 
 <tr>
@@ -76,17 +70,12 @@
 </div>
 
 <h2>2. Family Maintenance</h2>
-
+<div> <img style="align:center;" src="/isee2017-codecrunch/images/Family.png" alt="Family.png"/></div>
 <div>
 <table>
 <tr>
 <th colspan="4">Persona</th>
 <td colspan="8"> Head of the family/ Father or Mother</td>
-</tr>
-
-<tr>
-<th colspan="4">Photo</th>
-<td colspan="8"> <div> <img style="align:center;" src="/isee2017-codecrunch/images/Family.png" alt="Family.png"/></div>  </td>
 </tr>
 
 <tr>

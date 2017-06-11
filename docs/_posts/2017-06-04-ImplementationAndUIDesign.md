@@ -142,6 +142,5 @@
 <img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.png" alt="TransactionPaperMockUp.jpg"/> 
 </div>
 
-
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>
 

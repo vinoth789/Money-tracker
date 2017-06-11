@@ -29,7 +29,7 @@
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
 
 <h2>1. Students away from home</h2>
-<div><img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/></div>
+<img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>
 <div>
 <table>
 <tr>
@@ -70,7 +70,7 @@
 </div>
 
 <h2>2. Family Maintenance</h2>
-<div> <img style="align:center;" src="/isee2017-codecrunch/images/Family.png" alt="Family.png"/></div>
+<img style="align:center;" src="/isee2017-codecrunch/images/Family.png" alt="Family.png"/>
 <div>
 <table>
 <tr>

@@ -22,6 +22,7 @@
 <li><p>Coding standards are defined by discussing with the team, with all the good practices each one is aware of and it has been documented and shared, such that each developer follows the standard </p></li>
 <li><p>Once coding is done and tested, code is reviewed by any one of the peer and it is guaranteed if coding conventions are followed and quality of code is maintained </p></li>
 <li><p>Comment will be added to the relating issue during code review phase, if the developer fails to meet any standard criterias defined</p></li>
+<li><a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Click here for more details on java coding convention..</a></li>
 </ul>
 </div>
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
@@ -123,11 +124,13 @@
 <p>Below is the prototype of Money Tracker application </p>
 
 <div>
+<h2>1. Enabling Login in Settings window</h2>
 <p>Shows the paper prototype for enabling of login action. From settings one can enable Login option and on entering the application for the next time, authentication and authorisation actions are performed. </p>
  <img style="align:center;" src="/isee2017-codecrunch/images/LoginEnabling.png" alt="EnableLogin.png"/>  
 </div>
 
 <div>
+<h2>Adding Transactions (Income or Expense)</h2>
 <p>Shows the paper prototype for adding the Transaction. User can choose Income or Expense type and navigate to Add Transaction window where he/she will be asked to select subcategory of selected Income/Expense type, amount and Date. Once done filling and saving transaction, it's data will be updated in Homescreen.  </p>
 <img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.png" alt="TransactionPaperMockUp.jpg"/> 
 </div>

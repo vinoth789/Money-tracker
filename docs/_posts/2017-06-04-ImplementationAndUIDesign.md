@@ -22,8 +22,8 @@
 <li><p>Coding standards are defined by discussing with the team, with all the good practices each one is aware of and it has been documented and shared, such that each developer follows the standard </p></li>
 <li><p>Once coding is done and tested, code is reviewed by any one of the peer and it is guaranteed if coding conventions are followed and quality of code is maintained </p></li>
 <li><p>Comment will be added to the relating issue during code review phase, if the developer fails to meet any standard criterias defined</p></li>
-<li><a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Click here for more details on java coding convention..</a></li>
 </ul>
+<a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Click here for more details on java coding convention...</a>
 </div>
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day today expenses, not for group of peoples or doesn't target large scale industrail expenditure maintainance </p>

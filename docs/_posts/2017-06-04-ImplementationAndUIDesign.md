@@ -11,9 +11,7 @@
 <li><p>The initial package name representing the domain name must be in lower case. For example, de.ovgu.janardhanast.name.login</p></li>
 <li><p>Classes are always noun and are written in UpperCamelCase.<br> Example: SignInActivity.java</p></li>
 <li><p>Variables always starts with lowercase letter and has mixed case,i.e. it follows camel case convention. <br> Example : Button btnLogin; </p></li>
-<li><p>The variables used to store UI components values satrts with the components followed by noun. <br> Example : <br> 
-<ul><li><p>EditText component used to enter UserName will be named as - EditText etUserName; </p></li>
-<li><p>Radio button that holds income value is named as - RadioButton radiobtnIncome;</p></li></ul></p></li>
+<li><p>The variables used to store UI components values satrts with the components followed by noun. <br> Example : EditText component used to enter UserName will be named as - EditText etUserName; <br> Radio button that holds income value is named as - RadioButton radiobtnIncome;</p></li>
 <li> <p>Functions are always verb and named in accordance to what they do, and are written in lowercase </p></li>
 <li><p>Every method and class will hold comments so as to what it does, hence allowing user to quickly understand the functionality</p></li>
 <li><p>Constants are always written in Uppercase with underscore seperating the words.<br> Example : int NUMBER_OF_CATEGORY=5;</p></li>

@@ -114,7 +114,7 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Quote</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Save your Money!! you are going to need twice as much as MONEY in your old age then you think!!</p> </td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Save your Money!! you are going to need twice as much as MONEY in your old age than you think!!</p> </td>
 </tr>
 
 </table>

@@ -32,7 +32,7 @@
 <h2>1. Students away from home</h2>
 
 <div>
-<img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>
+<img style="align:center;" src="/isee2017-codecrunch/images/StudentsInHostel.jpg" alt="StudentsInHostel.jpg"/>
 <table>
 <tr>
 <th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Persona</p></th>
@@ -76,45 +76,45 @@
 <div>
 <table>
 <tr>
-<th colspan="4">Persona</th>
-<td colspan="8"> Head of the family/ Father or Mother</td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Persona</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Head of the family/ Father or Mother</p></td>
 </tr>
 
 <tr>
-<th colspan="4">Fictional name</th>
-<td colspan="8"> Erlich Bochman</td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Fictional name</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Erlich Bochman</p></td>
 </tr>
 
 <tr>
-<th colspan="4">Major Responsibilities</th>
-<td colspan="8"> Works as software engineer</td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Works as software engineer</p></td>
 </tr>
 
 <tr>
-<th colspan="4">Demographics</th>
-<td colspan="8"> 30 year old, Software engineer , German and Married</td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Demographics</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> 30 year old, Software engineer , German and Married</p></td>
 </tr>
 
 <tr>
-<th colspan="4">Goals and tasks</th>
-<td colspan="8"> As a family person it is very important to maintain the expenses of family members within the flowing in income
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"> <p>As a family person it is very important to maintain the expenses of family members within the flowing in income</p>
 <ul>
-<li>Monthly rental/ house maintenance</li>
-<li>Education of kids</li>
-<li>Health, entertainment and travelling</li>
-<li>Savings for future</li>
+<li><p>Monthly rental/ house maintenance</p></li>
+<li><p>Education of kids</p></li>
+<li><p>Health, entertainment and travelling</p></li>
+<li><p>Savings for future</p></li>
 </ul>
 </td>
 </tr>
 
 <tr>
-<th colspan="4">Environment</th>
-<td colspan="8">Spending will be more on socializing events rather than for technological events</td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Environment</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p>Spending will be more on socializing events rather than for technological events</p></td>
 </tr>
 
 <tr>
-<th colspan="4">Quote</th>
-<td colspan="8">Save your Money!! you are going to need twice as much as MONEY in your old age then you think!! </td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Quote</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p>Save your Money!! you are going to need twice as much as MONEY in your old age then you think!!</p> </td>
 </tr>
 
 </table>

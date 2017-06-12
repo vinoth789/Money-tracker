@@ -36,37 +36,37 @@
 <table>
 <tr>
 <th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Persona</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Students (Living away from home/ in hostels)</p></td>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Students (Living away from home/ in hostels)</p></td>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left;"><p>Fictional name</p></th>
-<td colspan="8"><p> Rajesh Koothrapali</p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Fictional name</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Rajesh Koothrapali</p></td>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left;"><p>Major Responsibilities</p></th>
-<td colspan="8"><p> Master Student in Digital Engineering and works as Reseacrch assistant</p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Master Student in Digital Engineering and works as Reseacrch assistant</p></td>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left;"><p>Demographics</p></th>
-<td colspan="8"><p> 23 year old, Master Student in Digital Engineering, Indian and Unmarried</p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Demographics</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> 23 year old, Master Student in Digital Engineering, Indian and Unmarried</p></td>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left;"><p>Goals and tasks</p></th>
-<td colspan="8"><p> As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can bare per month for every category like education , entertainment, travelling and groceries, based on his monthly income and also savings he is planning for the future </p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can bare per month for every category like education , entertainment, travelling and groceries, based on his monthly income and also savings he is planning for the future </p></td>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left;"><p>Environment</p></th>
-<td colspan="8"><p>As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to spend more on any of this field</p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Environment</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p>As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to spend more on any of this field</p></td>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left;"><p>Quote</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>Do not save what is left after spending, spend what is left after saving!!</p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Quote</p></th>
+<td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p>Do not save what is left after spending, spend what is left after saving!!</p></td>
 </tr>
 </table>
 </div>

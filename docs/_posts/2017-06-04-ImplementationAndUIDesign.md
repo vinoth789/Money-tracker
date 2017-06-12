@@ -60,12 +60,22 @@ public validatePin() {<br>
     }<br>
 </p>
 <h2 style="color: #2e6c80;">1.9 XML style rules :</h2>
+<p>ID of an XML element should have its asset type as prefix.<br>
+<b>Example :</b> button_login</p>
 <p>If an XML element doesn't have any content, its a good practice to use self closing tags<br>
 <b>Example : </b><br>
    < Spinner <br>
         android:id="@+id/txnCategory"<br>
         android:layout_width="220dp"<br>
         android:layout_height="50dp"/></p>
+<h2 style="color: #2e6c80;">1.10 Annotations style :</h2>
+<p>Annotations should be written just above the method declaration and only one annotation per line<br>
+<b>Example :</b><br>
+@override <br>
+public void onCreate(SQLiteDatabase db) { <br>
+        SqliteHelper.onCreate(db);<br>
+    }
+</p>
 <h2 style="color: #2e6c80;">1.10 Code format :</h2>
 <p>Code has to be formated using Ctrl+Alt+l once coding is completed. </p>
 

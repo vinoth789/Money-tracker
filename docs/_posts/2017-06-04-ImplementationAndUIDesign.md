@@ -212,9 +212,8 @@ public void onCreate(SQLiteDatabase db) { <br>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/Settings.PNG" alt="Settings.PNG"/> 
 </div>
 <h1 style="color: #2e6c80; text-align:center;">Summary of changes</h1>
-<p>After clarifying with the customer we made few changes. Below are the key changes to our requirements.</p>
+<p>After clarifying with the customer we made couple of changes. Below are the key changes to our requirements.</p>
 <ol>
-<li><p>Inclusion of settings icon in the home screen</p></li>
 <li><p>PIN enable and disable - By default, the app will not be password protected. If the user wants his app to be password protected, then he will have an option to enable PIN in settings. When he enables his PIN for the first time he will be redirected to a new screen where he can enter and save his user credentials. On subsequent login, he will have to enter his PIN to access the application.</p></li>
 <li><p>Change currency option was moved to settings module. By default, the currency will be set to 'EURO', if the user wants to change the currency, then all the existing transactions would be deleted.</p></li>
 </ol>

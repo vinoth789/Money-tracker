@@ -35,8 +35,8 @@
 <img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>
 <table>
 <tr>
-<th colspan="4" style="text-align:left;"><p>Persona</p></th>
-<td colspan="8"><p> Students (Living away from home/ in hostels)</p></td>
+<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Persona</p></th>
+<td colspan="8" style="border: solid 2px lightgrey;"><p> Students (Living away from home/ in hostels)</p></td>
 </tr>
 
 <tr>
@@ -66,7 +66,7 @@
 
 <tr>
 <th colspan="4" style="text-align:left;"><p>Quote</p></th>
-<td colspan="8"><p>Do not save what is left after spending, spend what is left after saving!!</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>Do not save what is left after spending, spend what is left after saving!!</p></td>
 </tr>
 </table>
 </div>

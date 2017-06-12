@@ -45,7 +45,7 @@
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:left; border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
+<th colspan="4" style=" border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
 <td colspan="8" style="text-align:left; border: solid 2px lightgrey;"><p> Master Student in Digital Engineering and works as Reseacrch assistant</p></td>
 </tr>
 

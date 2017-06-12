@@ -29,65 +29,65 @@
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day today expenses, not for group of peoples or doesn't target large scale industrail expenditure maintainance </p>
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>
 
-<h2>1. Students away from home</h2>
+<h2 style="color: #2e6c80;">1. Students away from home</h2>
 
 <div>
 <img style="align:center;" src="/isee2017-codecrunch/images/StudentsInHostel.jpg" alt="StudentsInHostel.jpg"/>
 <table>
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Persona</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Students (Living away from home/ in hostels)</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Students (Living away from home/ in hostels)</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Fictional name</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Rajesh Koothrapali</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Sandra Schroder</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Master Student in Digital Engineering and works as Reseacrch assistant</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Master Student in Digital Engineering and works as Reseacrch assistant</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Demographics</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> 23 year old, Master Student in Digital Engineering, Indian and Unmarried</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; 23 year old, Master Student in Digital Engineering, Indian and Unmarried</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can bare per month for every category like education , entertainment, travelling and groceries, based on his monthly income and also savings he is planning for the future </p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p> As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can &nbsp; bare per month for every category like education , entertainment, travelling and groceries, based on his monthly &nbsp; income and also savings he is planning for the future </p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Environment</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to spend more on any of this field</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p> &nbsp;As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to &nbsp; spend more on any of this field</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Quote</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>Do not save what is left after spending, spend what is left after saving!!</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Do not save what is left after spending, spend what is left after saving!!</p></td>
 </tr>
 </table>
 </div>
 
-<h2>2. Family Maintenance</h2>
+<h2 style="color: #2e6c80;">2. Family Maintenance</h2>
 <img style="align:center;" src="/isee2017-codecrunch/images/Family.png" alt="Family.png"/>
 <div>
 <table>
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Persona</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Head of the family/ Father or Mother</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Head of the family/ Father or Mother</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Fictional name</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Erlich Bochman</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p> &nbsp; Erlich Bochman</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> Works as software engineer</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p> &nbsp; Works as software engineer</p></td>
 </tr>
 
 <tr>
@@ -97,7 +97,7 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"> <p>As a family person it is very important to maintain the expenses of family members within the flowing in income</p>
+<td colspan="8" style="border: solid 2px lightgrey;"> <p> &nbsp;As a family person it is very important to maintain the expenses of family members within the flowing in &nbsp; income</p>
 <ul>
 <li><p>Monthly rental/ house maintenance</p></li>
 <li><p>Education of kids</p></li>
@@ -109,12 +109,12 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Environment</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>Spending will be more on socializing events rather than for technological events</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Spending will be more on socializing events rather than for technological events</p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Quote</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>Save your Money!! you are going to need twice as much as MONEY in your old age then you think!!</p> </td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Save your Money!! you are going to need twice as much as MONEY in your old age then you think!!</p> </td>
 </tr>
 
 </table>

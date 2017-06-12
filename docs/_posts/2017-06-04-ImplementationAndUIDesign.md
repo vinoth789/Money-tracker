@@ -167,9 +167,9 @@ public validatePin() {<br>
 
 <h1 style="color: #2e6c80; text-align:center;">Mockup of MoneyTracker application </h1>
 <p>Below is the prototype of Money Tracker application </p>
-<h2 style="color: #2e6c80; text-align:center;">Home Screen</h2>
+<h2 style="color: #2e6c80;">Home Screen</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupHome.jpg" alt="mockupHome.jpg"/></div> 
-<h2 style="color: #2e6c80; text-align:center;">Add transaction screen</h2>
+<h2 style="color: #2e6c80;">Add transaction screen</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupTransaction.jpg" alt="mockupTransaction.jpg"/></div> 
 <h1 style="color: #2e6c80; text-align:center;">Story board of MoneyTracker application </h1>
 <div>
@@ -187,11 +187,11 @@ public validatePin() {<br>
 <div>
 <h1 style="color: #2e6c80; text-align:center;">User Interfaces</h1>
 <h2 style="color: #2e6c80;">1. Login</h2>
-<img style="align:center;" src="/isee2017-codecrunch/images/Login1.PNG" alt="Login1.PNG"/> 
+<div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/Login1.PNG" alt="Login1.PNG"/></div> 
 <h2 style="color: #2e6c80;">2. Settings</h2>
-<img style="align:center;" src="/isee2017-codecrunch/images/AddCategoryScreen.PNG" alt="AddCategoryScreen.PNG"/> 
+<div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/AddCategoryScreen.PNG" alt="AddCategoryScreen.PNG"/></div> 
 <h2 style="color: #2e6c80;">3. Add Transaction</h2>
-<img style="align:center;" src="/isee2017-codecrunch/images/Settings.PNG" alt="Settings.PNG"/> 
+<div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/Settings.PNG" alt="Settings.PNG"/> 
 </div>
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

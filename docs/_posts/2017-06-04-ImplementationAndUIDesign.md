@@ -62,9 +62,9 @@ public validatePin() {<br>
 <h2 style="color: #2e6c80;">1.9 XML style rules :</h2>
 <p>If an XML element doesn't have any content, its a good practice to use self closing tags<br>
 <b>Example : </b><br>
-   <Spinner
-        android:id="@+id/txnCategory"
-        android:layout_width="220dp"
+   < Spinner <br>
+        android:id="@+id/txnCategory"<br>
+        android:layout_width="220dp"<br>
         android:layout_height="50dp"/></p>
 <h2 style="color: #2e6c80;">1.10 Code format :</h2>
 <p>Code has to be formated using Ctrl+Alt+l once coding is completed. </p>
@@ -202,7 +202,7 @@ public validatePin() {<br>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/Settings.PNG" alt="Settings.PNG"/> 
 </div>
 <h1 style="color: #2e6c80; text-align:center;">Summary of changes</h1>
-<p>After clarifying with the customer we made few changes. Below are the Key changes to our requirements.</p>
+<p>After clarifying with the customer we made few changes. Below are the key changes to our requirements.</p>
 <ol>
 <li><p>Inclusion of settings icon in the home screen</p></li>
 <li><p>PIN enable and disable - By default, the app will not be password protected. If the user wants his app to be password protected, then he will have an option to enable PIN in settings. When he enables his PIN for the first time he will be redirected to a new screen where he can enter and save his user credentials. On subsequent login, he will have to enter his PIN to access the application.</p></li>

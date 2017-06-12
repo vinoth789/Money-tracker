@@ -92,7 +92,7 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Demographics</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> 30 year old, Software engineer , German and Married</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; 30 year old, Software engineer , German and Married</p></td>
 </tr>
 
 <tr>

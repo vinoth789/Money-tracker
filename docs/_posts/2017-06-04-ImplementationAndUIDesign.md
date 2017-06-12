@@ -59,7 +59,7 @@ public validatePin() {<br>
     }<br>
 </p>
 <h2 style="color: #2e6c80;">1.9 Code format :</h2>
-<p>Format the code once coding has been completed in a page using Ctrl+Alt+l</p>
+<p>Code has to be formated using Ctrl+Alt+l once coding is completed. </p>
 
 <h2 style="color: #2e6c80;">Question is how do we make sure that all code adeheres to the coding conventions?</h2>
 <div>

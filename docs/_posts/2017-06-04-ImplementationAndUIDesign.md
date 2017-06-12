@@ -24,7 +24,7 @@ Example : if we are creating a layout for the LoginActivity, the name of the lay
 <h2 style="color: #2e6c80;">1.3 Values files:</h2>
 <p>Resource files in the values folder should be plural,<br><b>Example : </b> strings.xml, styles.xml, colors.xml, dimens.xml, attrs.xml</p>
 <h2 style="color: #2e6c80;">1.4 File import:</h2>
-<p>While importing a file, the import statement should have the complete file name prefixed by its package name.<br> Example :</b> import com.example.sony.homeMain.MainActivity;</p>
+<p>While importing a file, the import statement should have the complete file name prefixed by its package name.<br> <b>Example :</b> import com.example.sony.homeMain.MainActivity;</p>
 <h2 style="color: #2e6c80;">1.5 Exception handling:</h2>
 <p>All possible and expected exceptions are to be handled by using a try catch block with appropriate exceptions in the catch block <br> <b>Example :</b> <br>
 try {<br>
@@ -52,7 +52,7 @@ If (isPinValid) {<br>
 }
 </p>
 <h2 style="color: #2e6c80;">1.8 Logging </h2>
-<p>Logging methods has to be used since we work as a team. We might not know whose file throws an error. If all these are captured in a log it will be quite useful for fellow developers.
+<p>Logging methods has to be used since we work as a team. We might not know whose file throws an error. If all these are captured in a log it will be quite useful for fellow developers.<br>
 <b>Example :</b><br>
 public validatePin() {<br>
         Log.e(TAG, "Inside validate PIN method");<br>

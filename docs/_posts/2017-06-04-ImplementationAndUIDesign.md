@@ -1,5 +1,5 @@
 
-<h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, whom this application is meant for and prototype of the MoneyTracker application</h2>
+<h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, whom this application is meant for, prototype and UI of the MoneyTracker application and key changes</h2>
 
 <div>
 <h1 style="color: #2e6c80; text-align:center;">Coding Conventions</h1>
@@ -15,6 +15,7 @@
 <li> <p>Functions are always verb and named in accordance to what they do, and are written in lowercase </p></li>
 <li><p>Every method and class will hold comments so as to what it does, hence allowing user to quickly understand the functionality</p></li>
 <li><p>Constants are always written in Uppercase with underscore seperating the words.<br> Example - int NUMBER_OF_CATEGORY=5;</p></li>
+<li><p>Resource IDs and names are written in lowercase_name.</p></li>
 </ol>
 </div>
 <h2 style="color: #2e6c80;">1.2 Layout files :</h2>
@@ -58,7 +59,14 @@ public validatePin() {<br>
         Log.e(TAG, "Inside validate PIN method");<br>
     }<br>
 </p>
-<h2 style="color: #2e6c80;">1.9 Code format :</h2>
+<h2 style="color: #2e6c80;">1.9 XML style rules :</h2>
+<p>If an XML element doesn't have any content, its a good practice to use self closing tags<br>
+<b>Example : </b><br>
+   <Spinner
+        android:id="@+id/txnCategory"
+        android:layout_width="220dp"
+        android:layout_height="50dp"/></p>
+<h2 style="color: #2e6c80;">1.10 Code format :</h2>
 <p>Code has to be formated using Ctrl+Alt+l once coding is completed. </p>
 
 <h2 style="color: #2e6c80;">Question is how do we make sure that all code adeheres to the coding conventions?</h2>
@@ -90,7 +98,7 @@ public validatePin() {<br>
 </tr>
 
 <tr>
-<th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Major Responsibilities</p></th>
+<th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Major responsibilities</p></th>
 <td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; Master Student in Digital Engineering and works as Reseacrch assistant</p></td>
 </tr>
 
@@ -167,32 +175,39 @@ public validatePin() {<br>
 
 <h1 style="color: #2e6c80; text-align:center;">Mockup of MoneyTracker application </h1>
 <p>Below is the prototype of Money Tracker application </p>
-<h2 style="color: #2e6c80;">Home Screen :</h2>
+<h2 style="color: #2e6c80;">Home screen :</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupHome.jpg" alt="mockupHome.jpg"/></div> 
 <h2 style="color: #2e6c80;">Add transaction screen :</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupTransaction.jpg" alt="mockupTransaction.jpg"/></div> 
 <h1 style="color: #2e6c80; text-align:center;">Story board of MoneyTracker application </h1>
 <div>
-<h2 style="color: #2e6c80;">1. Enabling Login in Settings window :</h2>
+<h2 style="color: #2e6c80;">1. Enabling login in settings window :</h2>
 <p>Shows the paper prototype for enabling of login action. From settings one can enable Login option and on entering the application for the next time, authentication and authorisation actions are performed. </p>
  <img style="align:center;" src="/isee2017-codecrunch/images/LoginEnabling.png" alt="EnableLogin.png"/>  
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">2. Adding Transactions (Income or Expense) :</h2>
+<h2 style="color: #2e6c80;">2. Adding transactions (Income or Expense) :</h2>
 <p>Shows the paper prototype for adding the Transaction. User can choose Income or Expense type and navigate to Add Transaction window where he/she will be asked to select subcategory of selected Income/Expense type, amount and Date. Once done filling and saving transaction, it's data will be updated in Homescreen.  </p>
 <img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.png" alt="TransactionPaperMockUp.jpg"/> 
 </div>
 
 <div>
-<h1 style="color: #2e6c80; text-align:center;">User Interfaces</h1>
+<h1 style="color: #2e6c80; text-align:center;">User interfaces</h1>
 <h2 style="color: #2e6c80;">1. Login :</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/Login1.PNG" alt="Login1.PNG"/></div> 
-<h2 style="color: #2e6c80;">2. Add Transaction :</h2>
+<h2 style="color: #2e6c80;">2. Add transaction :</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/AddCategoryScreen.PNG" alt="AddCategoryScreen.PNG"/></div> 
 <h2 style="color: #2e6c80;">3. Settings :</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/Settings.PNG" alt="Settings.PNG"/> 
 </div>
+<h1 style="color: #2e6c80; text-align:center;">Summary of changes</h1>
+<p>After clarifying with the customer we made few changes. Below are the Key changes to our requirements.</p>
+<ol>
+<li><p>Inclusion of settings icon in the home screen</p></li>
+<li><p>PIN enable and disable - By default, the app will not be password protected. If the user wants his app to be password protected, then he will have an option to enable PIN in settings. When he enables his PIN for the first time he will be redirected to a new screen where he can enter and save his user credentials. On subsequent login, he will have to enter his PIN to access the application.</p></li>
+<li><p>Change currency option was moved to settings module. By default, the currency will be set to 'EURO', if the user wants to change the currency, then all the existing transactions would be deleted.</p></li>
+</ol>
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>
 

@@ -5,7 +5,7 @@
 <h1 style="color: #2e6c80; text-align:center;">Coding Conventions</h1>
 <p> A coding standards document tells developers how they must write and present their code. Since the standard set is going to remain the same, its always a good practice to follow the coding standards so that its gonna make things easier to undersatand and more clear to the other developers working on the same application.  Instead of each developer coding in their own preferred style, they will write all code to the standards outlined by the organisation or team. This makes sure that a large project is coded in a consistent style and parts are not written differently by different programmers. Not only does this solution make the code easier to understand, but also ensures that any developer who looks at the code will be able to get a clear picture on the structure of entire application.</p>
 <p>Following are the coding conventions that we will be followed by our team: </p>
-<h2 style="color: #2e6c80;">1.1 Naming conventions</h2>
+<h2 style="color: #2e6c80;">1.1 Naming conventions :</h2>
 <div>
 <ol>
 <li><p>The initial package name representing the domain name must be in lower case. For example, de.ovgu.janardhanast.name.login</p></li>
@@ -17,15 +17,15 @@
 <li><p>Constants are always written in Uppercase with underscore seperating the words.<br> Example - int NUMBER_OF_CATEGORY=5;</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">1.2 Layout files</h2>
+<h2 style="color: #2e6c80;">1.2 Layout files :</h2>
 <p>Layout files should match the name of the Android components that they are intended for.
 Example : if we are creating a layout for the LoginActivity, the name of the layout file should be activity_login.xml.
 </p>
-<h2 style="color: #2e6c80;">1.3 Values files</h2>
+<h2 style="color: #2e6c80;">1.3 Values files :</h2>
 <p>Resource files in the values folder should be plural,<br><b>Example : </b> strings.xml, styles.xml, colors.xml, dimens.xml, attrs.xml</p>
-<h2 style="color: #2e6c80;">1.4 File import</h2>
+<h2 style="color: #2e6c80;">1.4 File import :</h2>
 <p>While importing a file, the import statement should have the complete file name prefixed by its package name.<br> <b>Example :</b> import com.example.sony.homeMain.MainActivity;</p>
-<h2 style="color: #2e6c80;">1.5 Exception handling</h2>
+<h2 style="color: #2e6c80;">1.5 Exception handling :</h2>
 <p>All possible and expected exceptions are to be handled by using a try catch block with appropriate exceptions in the catch block <br> <b>Example :</b> <br>
 try {<br>
    // Protected code<br>
@@ -33,14 +33,14 @@ try {<br>
    // Catch block<br>
 }
 </p>
-<h2 style="color: #2e6c80;">1.6 Space indentation</h2>
+<h2 style="color: #2e6c80;">1.6 Space indentation :</h2>
 <p>4 space indents should be used for blocks.<br>
 <b>Example : </b><br>
 if (switchState == true) {<br>
     //content<br>
 }
 </p>
-<h2 style="color: #2e6c80;">1.7 Brace style</h2>
+<h2 style="color: #2e6c80;">1.7 Brace style :</h2>
 <p>Braces go on the same line as the code. If the condition has multiple statements, it should be covered inside the braces.<br>
 <b>Example :</b><br>
 If (isPinValid) {<br>
@@ -51,14 +51,14 @@ If (isPinValid) {<br>
     startActivity(intent);<br>
 }
 </p>
-<h2 style="color: #2e6c80;">1.8 Logging </h2>
+<h2 style="color: #2e6c80;">1.8 Logging :</h2>
 <p>Logging methods has to be used since we work as a team. We might not know whose file throws an error. If all these are captured in a log it will be quite useful for fellow developers.<br>
 <b>Example :</b><br>
 public validatePin() {<br>
         Log.e(TAG, "Inside validate PIN method");<br>
     }<br>
 </p>
-<h2 style="color: #2e6c80;">1.9 Code format </h2>
+<h2 style="color: #2e6c80;">1.9 Code format :</h2>
 <p>Format the code once coding has been completed in a page using Ctrl+Alt+l</p>
 
 <h2 style="color: #2e6c80;">Question is how do we make sure that all code adeheres to the coding conventions?</h2>
@@ -173,13 +173,13 @@ public validatePin() {<br>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupTransaction.jpg" alt="mockupTransaction.jpg"/></div> 
 <h1 style="color: #2e6c80; text-align:center;">Story board of MoneyTracker application </h1>
 <div>
-<h2 style="color: #2e6c80;">1. Enabling Login in Settings window</h2>
+<h2 style="color: #2e6c80;">1. Enabling Login in Settings window :</h2>
 <p>Shows the paper prototype for enabling of login action. From settings one can enable Login option and on entering the application for the next time, authentication and authorisation actions are performed. </p>
  <img style="align:center;" src="/isee2017-codecrunch/images/LoginEnabling.png" alt="EnableLogin.png"/>  
 </div>
 
 <div>
-<h2 style="color: #2e6c80;">2. Adding Transactions (Income or Expense)</h2>
+<h2 style="color: #2e6c80;">2. Adding Transactions (Income or Expense) :</h2>
 <p>Shows the paper prototype for adding the Transaction. User can choose Income or Expense type and navigate to Add Transaction window where he/she will be asked to select subcategory of selected Income/Expense type, amount and Date. Once done filling and saving transaction, it's data will be updated in Homescreen.  </p>
 <img style="align:center;" src="/isee2017-codecrunch/images/AddTransaction.png" alt="TransactionPaperMockUp.jpg"/> 
 </div>

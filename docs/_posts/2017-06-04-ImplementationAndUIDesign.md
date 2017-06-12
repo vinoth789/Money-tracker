@@ -17,15 +17,15 @@
 <li><p>Constants are always written in Uppercase with underscore seperating the words.<br> Example - int NUMBER_OF_CATEGORY=5;</p></li>
 </ol>
 </div>
-<h2 style="color: #2e6c80;">1.2 Layout files:</h2>
+<h2 style="color: #2e6c80;">1.2 Layout files</h2>
 <p>Layout files should match the name of the Android components that they are intended for.
 Example : if we are creating a layout for the LoginActivity, the name of the layout file should be activity_login.xml.
 </p>
-<h2 style="color: #2e6c80;">1.3 Values files:</h2>
+<h2 style="color: #2e6c80;">1.3 Values files</h2>
 <p>Resource files in the values folder should be plural,<br><b>Example : </b> strings.xml, styles.xml, colors.xml, dimens.xml, attrs.xml</p>
-<h2 style="color: #2e6c80;">1.4 File import:</h2>
+<h2 style="color: #2e6c80;">1.4 File import</h2>
 <p>While importing a file, the import statement should have the complete file name prefixed by its package name.<br> <b>Example :</b> import com.example.sony.homeMain.MainActivity;</p>
-<h2 style="color: #2e6c80;">1.5 Exception handling:</h2>
+<h2 style="color: #2e6c80;">1.5 Exception handling</h2>
 <p>All possible and expected exceptions are to be handled by using a try catch block with appropriate exceptions in the catch block <br> <b>Example :</b> <br>
 try {<br>
    // Protected code<br>
@@ -33,14 +33,14 @@ try {<br>
    // Catch block<br>
 }
 </p>
-<h2 style="color: #2e6c80;">1.6 Space indentation:</h2>
-<p>4 space indents should be used for blocks:<br>
+<h2 style="color: #2e6c80;">1.6 Space indentation</h2>
+<p>4 space indents should be used for blocks.<br>
 <b>Example : </b><br>
 if (switchState == true) {<br>
     //content<br>
 }
 </p>
-<h2 style="color: #2e6c80;">1.7 Brace style:</h2>
+<h2 style="color: #2e6c80;">1.7 Brace style</h2>
 <p>Braces go on the same line as the code. If the condition has multiple statements, it should be covered inside the braces.<br>
 <b>Example :</b><br>
 If (isPinValid) {<br>
@@ -165,13 +165,13 @@ public validatePin() {<br>
 </table>
 </div>
 
-<h1 style="color: #2e6c80; text-align:center;">Mockup of MoneyTracker application :</h1>
+<h1 style="color: #2e6c80; text-align:center;">Mockup of MoneyTracker application </h1>
 <p>Below is the prototype of Money Tracker application </p>
 <h2 style="color: #2e6c80; text-align:center;">Home Screen</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupHome.jpg" alt="mockupHome.jpg"/></div> 
 <h2 style="color: #2e6c80; text-align:center;">Add transaction screen</h2>
 <div style="text-align:center"><img style="align:center;" src="/isee2017-codecrunch/images/mockupTransaction.jpg" alt="mockupTransaction.jpg"/></div> 
-<h1 style="color: #2e6c80; text-align:center;">Story board of MoneyTracker application :</h1>
+<h1 style="color: #2e6c80; text-align:center;">Story board of MoneyTracker application </h1>
 <div>
 <h2 style="color: #2e6c80;">1. Enabling Login in Settings window</h2>
 <p>Shows the paper prototype for enabling of login action. From settings one can enable Login option and on entering the application for the next time, authentication and authorisation actions are performed. </p>

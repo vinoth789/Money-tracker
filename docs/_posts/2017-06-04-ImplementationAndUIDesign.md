@@ -68,7 +68,7 @@ public validatePin() {<br>
 <li><p>Once coding is done and tested, code is reviewed by any one of the peer and it is guaranteed if coding conventions are followed and quality of code is maintained </p></li>
 <li><p>Comment will be added to the related issue during code review phase, if the developer fails to meet any standard criterias that has been defined</p></li>
 </ul>
-<a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Click here for more details on java coding convention...</a>
+<p><a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Click here for more details on java coding convention...</a></p>
 </div>
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day to day expenses, not for group of people or doesn't target large scale industrial expenditure maintainance </p>

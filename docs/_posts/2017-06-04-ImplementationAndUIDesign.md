@@ -35,13 +35,13 @@
 <img style="align:center;" src="/isee2017-codecrunch/images/RajK.png" alt="Rajesh.png"/>
 <table>
 <tr>
-<th colspan="4">Persona</th>
-<td colspan="8"> Students (Living away from home/ in hostels)</td>
+<th colspan="4"><p>Persona<p></th>
+<td colspan="8"><p> Students (Living away from home/ in hostels)</p></td>
 </tr>
 
 <tr>
-<th colspan="4">Fictional name</th>
-<td colspan="8"> Rajesh Koothrapali</td>
+<th colspan="4"><p>Fictional name</p></th>
+<td colspan="8"><p> Rajesh Koothrapali</p></td>
 </tr>
 
 <tr>

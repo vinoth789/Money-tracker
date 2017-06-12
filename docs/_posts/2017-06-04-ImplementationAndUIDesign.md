@@ -167,7 +167,11 @@ public validatePin() {<br>
 
 <h1 style="color: #2e6c80; text-align:center;">Mockup of MoneyTracker application :</h1>
 <p>Below is the prototype of Money Tracker application </p>
-
+<h2 style="color: #2e6c80;">Home Screen</h2>
+<img style="align:center;" src="/isee2017-codecrunch/images/mockupHome.jpg" alt="mockupHome.jpg"/> 
+<h2 style="color: #2e6c80;">Add transaction screen</h2>
+<img style="align:center;" src="/isee2017-codecrunch/images/mockupTransaction.jpg" alt="mockupTransaction.jpg"/> 
+<h1 style="color: #2e6c80; text-align:center;">Story board of MoneyTracker application :</h1>
 <div>
 <h2 style="color: #2e6c80;">1. Enabling Login in Settings window</h2>
 <p>Shows the paper prototype for enabling of login action. From settings one can enable Login option and on entering the application for the next time, authentication and authorisation actions are performed. </p>
@@ -183,8 +187,11 @@ public validatePin() {<br>
 <div>
 <h1 style="color: #2e6c80; text-align:center;">User Interfaces</h1>
 <h2 style="color: #2e6c80;">1. Login</h2>
+<img style="align:center;" src="/isee2017-codecrunch/images/Login1.PNG" alt="Login1.PNG"/> 
 <h2 style="color: #2e6c80;">2. Settings</h2>
+<img style="align:center;" src="/isee2017-codecrunch/images/AddCategoryScreen.PNG" alt="AddCategoryScreen.PNG"/> 
 <h2 style="color: #2e6c80;">3. Add Transaction</h2>
+<img style="align:center;" src="/isee2017-codecrunch/images/Settings.PNG" alt="Settings.PNG"/> 
 </div>
 
 <h3 style="color: #000000; text-align:center;">Thanks for visiting our Blog !</h3>

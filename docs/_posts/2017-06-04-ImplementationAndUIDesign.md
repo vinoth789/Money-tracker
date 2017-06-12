@@ -56,7 +56,7 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can <br>&nbsp; bare per month for every category like education , entertainment, travelling and groceries, based on his monthly <br> &nbsp; income and also savings he is planning for the future </p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; As a student and one living away from home, it is very necessary to have a clear idea on how much expense he <br>&nbsp; can bare per month for every category like education , entertainment, travelling and groceries, based on his <br> &nbsp; monthly income and also savings he is planning for the future </p></td>
 </tr>
 
 <tr>

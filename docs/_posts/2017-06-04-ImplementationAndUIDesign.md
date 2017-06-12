@@ -2,9 +2,10 @@
 <h2 style="color: #000000; text-align:center;">Welcome to our third Blog, you will see information about the coding conventions followed, whom this application is meant for and prototype of the MoneyTracker application</h2>
 
 <div>
-<h1 style="color: #2e6c80; text-align:center;">Coding Conventions</h1>
+<h1 style="color: #2e6c80; text-align:center;">1.Coding Conventions</h1>
 <p> A coding standards document tells developers how they must write and present their code. Since the standard set is going to remain the same, its always a good practice to follow the coding standards so that its gonna make things easier to undersatand and more clear to the other developers working on the same application.  Instead of each developer coding in their own preferred style, they will write all code to the standards outlined by the organisation or team. This makes sure that a large project is coded in a consistent style and parts are not written differently by different programmers. Not only does this solution make the code easier to understand, but also ensures that any developer who looks at the code will be able to get a clear picture on the structure of entire application.</p>
 <p>Following are the coding conventions that we will be followed by our team: </p>
+<h3>1.1Naming conventions</h3>
 <div>
 <ol>
 <li><p>The initial package name representing the domain name must be in lower case. For example, de.ovgu.janardhanast.name.login</p></li>
@@ -25,6 +26,49 @@
 </ul>
 <a href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Click here for more details on java coding convention...</a>
 </div>
+<h3>1.2 Layout files:</h3>
+<p>Layout files should match the name of the Android components that they are intended for.
+Example : if we are creating a layout for the LoginActivity, the name of the layout file should be activity_login.xml.
+</p>
+<h3>1.3 Values files:</h3>
+<p>Resource files in the values folder should be plural, e.g. strings.xml, styles.xml, colors.xml, dimens.xml, attrs.xml</p>
+<h3>1.4 File import:</h3>
+<p>While importing a file, the import statement should have the complete file name prefixed by its package name.<br> Example : import com.example.sony.homeMain.MainActivity;</p>
+<h3>1.5 Exception handling:</h3>
+<p>All possible and expected exceptions are to be handled by using a try catch block with appropriate exceptions in the catch block <br> Example : 
+try {
+   // Protected code
+}catch(ExceptionName e1) {
+   // Catch block
+}
+</p>
+<h3>Space indentation:</h3>
+<p>4 space indents should be used for blocks:<br>
+Example : 
+if (switchState == true) {
+    //content
+}
+</p>
+<h3>Brace style:</h3>
+<p>Braces go on the same line as the code. If the condition has multiple statements, it should be covered inside the braces.<br>
+Example :
+If (isPinValid) {
+    Intent intent = new Intent(this, MainActivity.class );
+    startActivity(intent);
+} else {
+    Intent intent = new Intent(this, LoginToHome.class);
+    startActivity(intent);
+}
+</p>
+<h3>Logging </h3>
+<p>Logging methods has to be used since we work as a team. We might not know whose file throws an error. If all these are captured in a log it will be quite useful for fellow developers.
+Example :
+public validatePin() {
+        Log.e(TAG, "Inside validate PIN method");
+    }
+</p>
+<h3>Code format </h3>
+<p>Format the code once coding has been completed in a page using Ctrl+Alt+l</p>
 <h2 style="color: #2e6c80;">To whom is our MoneyTracker Application more suitable?</h2>
 <p>Money Tracker is general purpose application suitable for every individual who is concerned to maintain or track the expenditure, none the less certain pre-requisites are, one willing to use the application has to be aware about usage of mobile phones, installation of android applications. This application can be better utilized by the pupils with age > 8 years, since it involves mathematically calculated results and representation of expenditure and savings interms of graph and Pie charts. This application is only focused for individuals who wish to track their day to day expenses, not for group of people or doesn't target large scale industrial expenditure maintainance </p>
 <h2>So considering the above factors we can define the two personas whom the application is more suitable is as follows: </h2>

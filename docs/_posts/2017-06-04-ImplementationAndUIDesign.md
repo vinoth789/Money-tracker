@@ -56,12 +56,12 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can </p><br><p>&nbsp; bare per month for every category like education , entertainment, travelling and groceries, based on his monthly <br> &nbsp; income and also savings he is planning for the future </p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p>&nbsp; As a student and one living away from home, it is very necessary to have a clear idea on how much expense he can <br>&nbsp; bare per month for every category like education , entertainment, travelling and groceries, based on his monthly <br> &nbsp; income and also savings he is planning for the future </p></td>
 </tr>
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Environment</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"><p> &nbsp; As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to &nbsp; spend more on any of this field</p></td>
+<td colspan="8" style="border: solid 2px lightgrey;"><p> &nbsp; As a student it is more likely to party or involve oneself in carrying out projects of interest and one may tend to <br> &nbsp; spend more on any of this field</p></td>
 </tr>
 
 <tr>
@@ -97,7 +97,7 @@
 
 <tr>
 <th colspan="4" style="text-align:center; border: solid 2px lightgrey;"><p>Goals and tasks</p></th>
-<td colspan="8" style="border: solid 2px lightgrey;"> <p> &nbsp; As a family person it is very important to maintain the expenses of family members within the flowing in &nbsp; income</p>
+<td colspan="8" style="border: solid 2px lightgrey;"> <p> &nbsp; As a family person it is very important to maintain the expenses of family members within the flowing in <br> &nbsp; income</p>
 <ul>
 <li><p>Monthly rental/ house maintenance</p></li>
 <li><p>Education of kids</p></li>

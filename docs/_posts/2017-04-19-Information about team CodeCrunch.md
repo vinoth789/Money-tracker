@@ -10,7 +10,7 @@
 <h1 style="color: #2e6c80;">Our Team</h1>
 <div>
 <ul>
-<li><p>Anusha Janardhana Rao</p></li>
+<li><p>Anusha J</p></li>
 <li><p>Jagriti Labh</p></li>
 <li><p>Ram Kishore Cheekatla</p></li>
 <li><p>Vinoth Kumar Moorthy</p></li>

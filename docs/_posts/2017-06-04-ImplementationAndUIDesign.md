@@ -14,7 +14,7 @@
 <li><p>The variables used to store UI components values satrts with the components followed by noun. <br> Example : EditText component used to enter UserName will be named as - EditText etUserName; <br> Radio button that holds income value is named as - RadioButton radiobtnIncome;</p></li>
 <li> <p>Functions are always verb and named in accordance to what they do, and are written in lowercase </p></li>
 <li><p>Every method and class will hold comments so as to what it does, hence allowing user to quickly understand the functionality</p></li>
-<li><p>Constants are always written in Uppercase with underscore seperating the words.<br> Example : int NUMBER_OF_CATEGORY=5;</p></li>
+<li><p>Constants are always written in Uppercase with underscore separating the words.<br> Example : int NUMBER_OF_CATEGORY=5;</p></li>
 <li><p>Resource IDs and names are written in lowercase_name.</p></li>
 </ol>
 </div>

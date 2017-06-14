@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sony.homeMain.login.ChangePIN">
+
+    <TextView
+        android:id="@+id/enterPinLabel"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="39dp"
+        android:text="Enter PIN"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/enterPin" />
+
+    <TextView
+        android:id="@+id/reenterPinLabel"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:text="Password"
+        app:layout_constraintBaseline_toBaselineOf="@+id/reenterPin"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/reenterPin" />
+
+    <Button
+        android:id="@+id/btnUpdatePin"
+        android:layout_width="137dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="341dp"
+        android:layout_marginTop="8dp"
+        android:onClick="onClick"
+        android:text="Update PIN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reenterPin" />
+
+    <EditText
+        android:id="@+id/reenterPin"
+        android:layout_width="197dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:maxLength="4"
+        android:inputType="numberPassword"
+        android:layout_marginRight="62dp"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <EditText
+        android:id="@+id/enterPin"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        app:layout_constraintLeft_toRightOf="@+id/enterPinLabel"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/reenterPin"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintVertical_bias="0.765" />
+
+</android.support.constraint.ConstraintLayout>

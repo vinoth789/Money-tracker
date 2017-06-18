@@ -24,6 +24,7 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
     public static final String PREFS_NAME = "SwitchButton";
     SharedPreferences settings;
     Switch onOffSwitch;
+    String selectedCurrency;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,12 +37,50 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
 
         // Spinner Drop down elements
         List<String> currencyList = new ArrayList<String>();
-        currencyList.add("Rupee");
-        currencyList.add("Euro");
-        currencyList.add("Dollar");
-        currencyList.add("Kuno");
-        currencyList.add("CHF");
-        currencyList.add("Francs");
+        currencyList.add("EUR");currencyList.add("AOA");currencyList.add("ARS");currencyList.add("AUD");
+        currencyList.add("AED");currencyList.add("AWG");currencyList.add("AZN");currencyList.add("BAM");
+        currencyList.add("AFN");currencyList.add("BAM");currencyList.add("BDT");currencyList.add("BGN");
+        currencyList.add("ALL");currencyList.add("BHD");currencyList.add("BIF");currencyList.add("BMD");
+        currencyList.add("AMD");currencyList.add("BND");currencyList.add("BOB");currencyList.add("BRL");
+        currencyList.add("ANG");currencyList.add("BSD");currencyList.add("BTN");currencyList.add("BWP");
+        currencyList.add("BYN");currencyList.add("BZD");currencyList.add("CAD");currencyList.add("CDF");
+        currencyList.add("ANG");currencyList.add("BSD");currencyList.add("BTN");currencyList.add("BWP");
+        currencyList.add("CHF");currencyList.add("CLP");currencyList.add("CNY");currencyList.add("COP");
+        currencyList.add("CRC");currencyList.add("CUC");currencyList.add("CUP");currencyList.add("CVE");
+        currencyList.add("CZK");currencyList.add("DJF");currencyList.add("DKK");currencyList.add("DOP");
+        currencyList.add("DZD");currencyList.add("EGP");currencyList.add("ERN");currencyList.add("ETB");
+        currencyList.add("FJD");currencyList.add("FKP");currencyList.add("GBP");currencyList.add("GEL");
+        currencyList.add("GGP");currencyList.add("GHS");currencyList.add("GIP");currencyList.add("GMD");
+        currencyList.add("GNF");currencyList.add("GTQ");currencyList.add("GYD");currencyList.add("HKD");
+        currencyList.add("HNL");currencyList.add("HRK");currencyList.add("HTG");currencyList.add("HUF");
+        currencyList.add("IDR");currencyList.add("IQD");currencyList.add("IRR");currencyList.add("ISK");
+        currencyList.add("ILS");currencyList.add("IMP");currencyList.add("INR");currencyList.add("IQD");
+        currencyList.add("IRR");currencyList.add("ISK");currencyList.add("JEP");currencyList.add("JMD");
+        currencyList.add("JOD");currencyList.add("JPY");currencyList.add("KES");currencyList.add("KGS");
+        currencyList.add("KHR");currencyList.add("KMF");currencyList.add("KPW");currencyList.add("KRW");
+        currencyList.add("KWD");currencyList.add("KYD");currencyList.add("KZT");currencyList.add("LAK");
+        currencyList.add("LBP");currencyList.add("LKR");currencyList.add("LRD");currencyList.add("LSL");
+        currencyList.add("LYD");currencyList.add("MAD");currencyList.add("MDL");currencyList.add("MGA");
+        currencyList.add("MKD");currencyList.add("MMK");currencyList.add("MNT");currencyList.add("MOP");
+        currencyList.add("MRO");currencyList.add("MUR");currencyList.add("MVR");currencyList.add("MWK");
+        currencyList.add("MXN");currencyList.add("MYR");currencyList.add("MZN");currencyList.add("NAD");
+        currencyList.add("NGN");currencyList.add("NIO");currencyList.add("NOK");currencyList.add("NPR");
+        currencyList.add("NZD");currencyList.add("OMR");currencyList.add("PAB");currencyList.add("PEN");
+        currencyList.add("PGK");currencyList.add("PHP");currencyList.add("PKR");currencyList.add("PLN");
+        currencyList.add("PYG");currencyList.add("QAR");currencyList.add("RON");currencyList.add("RSD");
+        currencyList.add("RUB");currencyList.add("RWF");currencyList.add("SAR");currencyList.add("SBD");
+        currencyList.add("SCR");currencyList.add("SDG");currencyList.add("SEK");currencyList.add("SGD");
+        currencyList.add("SHP");currencyList.add("SLL");currencyList.add("SOS");currencyList.add("SPL");
+        currencyList.add("SRD");currencyList.add("STD");currencyList.add("SVC");currencyList.add("SYP");
+        currencyList.add("SZL");currencyList.add("THB");currencyList.add("TJS");currencyList.add("TMT");
+        currencyList.add("TND");currencyList.add("TOP");currencyList.add("TRY");currencyList.add("TTD");
+        currencyList.add("TVD");currencyList.add("TWD");currencyList.add("TZS");currencyList.add("UAH");
+        currencyList.add("UGX");currencyList.add("USD");currencyList.add("UYU");currencyList.add("UZS");
+        currencyList.add("VEF");currencyList.add("VND");currencyList.add("VUV");currencyList.add("WST");
+        currencyList.add("XAF");currencyList.add("XCD");currencyList.add("XDR");currencyList.add("XOF");
+        currencyList.add("XPF");currencyList.add("YER");currencyList.add("ZAR");currencyList.add("ZMW");
+        currencyList.add("ZWD");
+
 
 
         ArrayAdapter<String> dataAdapter;
@@ -116,7 +155,10 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
+        selectedCurrency= parent.getItemAtPosition(position).toString();
+        SharedPreferences.Editor saveCurrency = getSharedPreferences("com.mobileapp.smartapplocker", MODE_PRIVATE).edit();
+        saveCurrency.putString("selectedCurrency", selectedCurrency);
+        saveCurrency.commit();
     }
 
     @Override

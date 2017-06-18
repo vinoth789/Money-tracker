@@ -10,6 +10,7 @@ public class ReportDetailsBean {
     String txnAmount;
     String txnNote;
     String txnCategory;
+    String txnMainCategory;
     String txnMode;
     String day;
 
@@ -59,5 +60,13 @@ public class ReportDetailsBean {
 
     public void setTxnMode(String txnMode) {
         this.txnMode = txnMode;
+    }
+
+    public String getTxnMainCategory() {
+        return txnMainCategory;
+    }
+
+    public void setTxnMainCategory(String txnMainCategory) {
+        this.txnMainCategory = txnMainCategory;
     }
 }

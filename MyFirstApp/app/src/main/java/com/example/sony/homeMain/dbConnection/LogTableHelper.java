@@ -12,7 +12,9 @@ import android.util.Log;
 import com.example.sony.homeMain.userBean.ReportDetailsBean;
 import com.example.sony.homeMain.userBean.UserDetails;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -31,6 +33,7 @@ public class LogTableHelper extends SQLiteOpenHelper {
     public static final String TXN_ID="txn_id";
     public static final String TXN_AMOUNT="amount";
     public static final String TXN_CATEGORY="category";
+    public static final String TXN_MAIN_CATEGORY="transaction_category";
     public static final String TXN_NOTE="note";
     public static final String TXN_DATE="txn_date";
     public static final String TXN_PAYMENT_METHOD="payment_method";
@@ -66,17 +69,18 @@ public class LogTableHelper extends SQLiteOpenHelper {
         SqliteHelper.onUpgrade(db, oldVersion, newVersion);
     }
 
-    public boolean insertTxnDetails(int amount, String category, String note, String txn_date,String payment_method)
+    public boolean insertTxnDetails(int amount, String category, String txnCategory, String note, String txn_date,String payment_method)
     {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
 
-        contentValues.put("amount", amount);
-        contentValues.put("category", category);
-        contentValues.put("note", note);
-        contentValues.put("payment_method", payment_method);
-        contentValues.put("txn_date", txn_date);
-        db.insert("transaction", null, contentValues);
+        contentValues.put(TXN_AMOUNT, amount);
+        contentValues.put(TXN_CATEGORY, category);
+        contentValues.put(TXN_MAIN_CATEGORY, txnCategory);
+        contentValues.put(TXN_NOTE, note);
+        contentValues.put(TXN_PAYMENT_METHOD, payment_method);
+        contentValues.put(TXN_DATE, txn_date);
+        db.insert(TRANSACTION_TABLE, null, contentValues);
         return true;
     }
 
@@ -104,20 +108,55 @@ public class LogTableHelper extends SQLiteOpenHelper {
         return true;
     }
 
-    public ArrayList<ReportDetailsBean> fetchReport() {
-        String dateStamp,txnAmount,txnNote,txnCategory,txnMode, txnDay;
+    public ArrayList<ReportDetailsBean> fetchReportMonthly(int i) {
+        String dateStamp,txnAmount,txnNote,txnCategory,txnMainCategory,txnMode, txnDay;
+        ReportDetailsBean reportDetails;
         SQLiteDatabase db=this.getReadableDatabase();
+        SimpleDateFormat sdf = new SimpleDateFormat("MM/yyyy");
+        String currentDateandTime = sdf.format(new Date());
+        String monthYearCondition;
+        int month,year;
+        int year1, year2;
+        String [] monthYear, monthYear1;
+        monthYear = currentDateandTime.split("/");
+        month = Integer.parseInt(monthYear[0]);
+        year = Integer.parseInt(monthYear[1]);
+
+        if (i == 0){
+            if(month == 1){
+                year1 = year-1;
+                monthYearCondition = year1+"-"+12;
+            }else{
+                monthYearCondition = year+"-"+(month-1);
+            }
+        }else if(i == 1){
+             monthYearCondition = year+"-"+month;
+        }else {
+            if(month == 12){
+                year2 = year+1;
+                monthYearCondition = year2+"-"+1;
+            }else{
+                monthYearCondition = year+"-"+(month+1);
+            }
+        }
+        monthYear1 = monthYearCondition.split("-");
+        if(monthYear1[1].length()<2){
+            monthYearCondition = monthYear1[0]+"-"+0+monthYear1[1];
+        }else{
+            monthYearCondition = monthYear1[0]+"-"+monthYear1[1];
+        }
+
         ArrayList<ReportDetailsBean> reportList = new ArrayList<ReportDetailsBean>();
-        ReportDetailsBean reportDetails = new ReportDetailsBean();
-        Cursor mCursor = db.query(TRANSACTION_TABLE, new String[] {TXN_ID,
-                        TXN_AMOUNT, TXN_CATEGORY,TXN_NOTE,TXN_PAYMENT_METHOD,TXN_DATE},
-                null, null, null, null, null);
-        if (mCursor != null) {
-            while (mCursor.moveToNext()) {
+        String query="select "+ TXN_ID +","+ TXN_AMOUNT+","+ TXN_CATEGORY+","+TXN_MAIN_CATEGORY+","+TXN_NOTE+","+TXN_PAYMENT_METHOD+","+TXN_DATE +" from " + TRANSACTION_TABLE + " where "+TXN_DATE+" like '" +monthYearCondition+"%"+"'" ;
+        Cursor mCursor = db.rawQuery(query, null);
+        if (mCursor != null && mCursor.moveToFirst()){
+            do {
+                reportDetails = new ReportDetailsBean();
                 dateStamp = mCursor.getString(mCursor.getColumnIndex(TXN_DATE));
                 txnAmount = mCursor.getString(mCursor.getColumnIndex(TXN_AMOUNT));
                 txnNote = mCursor.getString(mCursor.getColumnIndex(TXN_NOTE));
                 txnCategory = mCursor.getString(mCursor.getColumnIndex(TXN_CATEGORY));
+                txnMainCategory = mCursor.getString(mCursor.getColumnIndex(TXN_MAIN_CATEGORY));
                 txnMode = mCursor.getString(mCursor.getColumnIndex(TXN_PAYMENT_METHOD));
                 //txnDay = mCursor.getString(mCursor.getColumnIndex("date"));
 
@@ -126,14 +165,61 @@ public class LogTableHelper extends SQLiteOpenHelper {
                     reportDetails.setTxnAmount(txnAmount);
                     reportDetails.setTxnNote(txnNote);
                     reportDetails.setTxnCategory(txnCategory);
+                    reportDetails.setTxnMainCategory(txnMainCategory);
                     reportDetails.setTxnMode(txnMode);
                     //reportDetails.setTxnMode(txnDay);
                     reportList.add(reportDetails);
                 } catch (Exception e) {
                     Log.e(MY_DEBUG_TAG, "Error " + e.toString());
                 }
+            } while (mCursor.moveToNext());
+        }
+        return reportList;
+    }
 
-            }
+    public ArrayList<ReportDetailsBean> fetchReport(String fromDate, String toDate, String selectedSubCategory) {
+        String dateStamp,txnAmount,txnNote,txnCategory,txnMainCategory,txnMode, txnDay;
+        ReportDetailsBean reportDetails;
+        Cursor mCursor;
+        SQLiteDatabase db=this.getReadableDatabase();
+        ArrayList<ReportDetailsBean> reportList = new ArrayList<ReportDetailsBean>();
+        if(fromDate !=null && toDate != null && (selectedSubCategory == null || selectedSubCategory == "")){
+            String query="select "+ TXN_ID +","+ TXN_AMOUNT+","+ TXN_CATEGORY+","+TXN_MAIN_CATEGORY+","+TXN_NOTE+","+TXN_PAYMENT_METHOD+","+TXN_DATE +" from " + TRANSACTION_TABLE + " where "+TXN_DATE+ " BETWEEN '" + fromDate + "' AND '" + toDate+ "'" ;
+            mCursor = db.rawQuery(query, null);
+
+        }else if(fromDate !=null && toDate != null && selectedSubCategory != null){
+            String query="select "+ TXN_ID +","+ TXN_AMOUNT+","+ TXN_CATEGORY+","+TXN_MAIN_CATEGORY+","+TXN_NOTE+","+TXN_PAYMENT_METHOD+","+TXN_DATE +" from " + TRANSACTION_TABLE + " where "+TXN_DATE+ " BETWEEN '" + fromDate + "' AND '" + toDate + "' AND "+TXN_CATEGORY+" ='" +selectedSubCategory+"' ORDER BY "+TXN_DATE+" ASC" ;
+            mCursor = db.rawQuery(query, null);
+        }else{
+            mCursor = db.query(TRANSACTION_TABLE, new String[] {TXN_ID,
+                            TXN_AMOUNT, TXN_CATEGORY, TXN_MAIN_CATEGORY,TXN_NOTE,TXN_PAYMENT_METHOD,TXN_DATE},
+                    null, null, null, null, null);
+        }
+
+             if (mCursor != null && mCursor.moveToFirst()){
+            do {
+                reportDetails = new ReportDetailsBean();
+                dateStamp = mCursor.getString(mCursor.getColumnIndex(TXN_DATE));
+                txnAmount = mCursor.getString(mCursor.getColumnIndex(TXN_AMOUNT));
+                txnNote = mCursor.getString(mCursor.getColumnIndex(TXN_NOTE));
+                txnCategory = mCursor.getString(mCursor.getColumnIndex(TXN_CATEGORY));
+                txnMainCategory = mCursor.getString(mCursor.getColumnIndex(TXN_MAIN_CATEGORY));
+                txnMode = mCursor.getString(mCursor.getColumnIndex(TXN_PAYMENT_METHOD));
+                //txnDay = mCursor.getString(mCursor.getColumnIndex("date"));
+
+                try {
+                    reportDetails.setDateStamp(dateStamp);
+                    reportDetails.setTxnAmount(txnAmount);
+                    reportDetails.setTxnNote(txnNote);
+                    reportDetails.setTxnCategory(txnCategory);
+                    reportDetails.setTxnMainCategory(txnMainCategory);
+                    reportDetails.setTxnMode(txnMode);
+                    //reportDetails.setTxnMode(txnDay);
+                    reportList.add(reportDetails);
+                } catch (Exception e) {
+                    Log.e(MY_DEBUG_TAG, "Error " + e.toString());
+                }
+            } while (mCursor.moveToNext());
         }
         return reportList;
     }

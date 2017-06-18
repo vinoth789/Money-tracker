@@ -12,6 +12,7 @@ public class SqliteHelper {
     public static final String TXN_ID="txn_id";
     public static final String TXN_AMOUNT="amount";
     public static final String TXN_CATEGORY="category";
+    public static final String TXN_MAIN_CATEGORY="transaction_category";
     public static final String TXN_NOTE="note";
     public static final String TXN_DATE="txn_date";
     public static final String TXN_PAYMENT_METHOD="payment_method";
@@ -27,6 +28,7 @@ public class SqliteHelper {
             + TXN_ID + " integer primary key autoincrement,"
             + TXN_AMOUNT + " text not null,"
             + TXN_CATEGORY + " text not null, "
+            + TXN_MAIN_CATEGORY + " text not null, "
             + TXN_NOTE +" text not null,"
             + TXN_PAYMENT_METHOD +" text not null,"
             + TXN_DATE +" text not null"
